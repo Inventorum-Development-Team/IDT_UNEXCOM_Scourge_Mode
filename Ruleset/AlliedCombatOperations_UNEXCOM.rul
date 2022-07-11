@@ -1,0 +1,401 @@
+# spellchecker:words MOUNTGRASS PLAINSGRASS FORESTSWAMP CULTA INDUSTRIALSLUM COMRCURBAN
+alienDeployments:
+  - type: STR_AMERICAN_OPERATIONS_MISSION
+    width: 60
+    length: 60
+    height: 10
+    terrains: &AlliedOperationTerrains
+      - MOUNTGRASS
+      - PLAINSGRASS
+      - PLAINSMUDD
+      - MOUNTMUDD
+      - PLAINSROCK
+      - FOREST
+      - IDT_VILLAGE
+      - IDT_FOREST
+      - FORESTSWAMP
+      - RURAL
+    civiliansByType: &AmericanTroopers
+      STR_AMERICAN_RIFLEMAN: 12
+      STR_AMERICAN_ASSAULT: 12
+      STR_AMERICAN_SUPPORT: 12
+      STR_AMERICAN_ELITE: 9
+      STR_PATTON_TANK: 4
+    alert: STR_AMERICAN_OPERATIONS_ALERT
+    alertBackground: AMERICAN_OPERATIONS_MISSION_ALERT_BACKGROUND
+    alertDescription: STR_AMERICAN_OPERATIONS_MISSION_DESCRIPTION
+    briefing:
+      desc: STR_AMERICAN_OPERATIONS_MISSION_BRIEFING
+      background: AMERICAN_OPERATIONS_MISSION_BACKGROUND
+      palette: 2
+    markerName: STR_ALLIED_OPERATION
+    duration: [18, 50]
+    despawnPenalty: 400
+    data: &AlliedOperationData
+      - alienRank: 6
+        lowQty: 8
+        highQty: 12
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 8
+        highQty: 12
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 20
+        highQty: 30
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_FUSION_RIFLE
+            - STR_FUSION_POWER_CELL_HEAVY
+            - STR_FUSION_POWER_CELL_HEAVY
+            - STR_FUSION_POWER_CELL_HEAVY
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_FUSION_HANDGUN
+            - STR_FUSION_POWER_CELL_LIGHT
+            - STR_FUSION_POWER_CELL_LIGHT
+          -
+            - STR_FUSION_SMG
+            - STR_FUSION_POWER_CELL_LIGHT
+            - STR_FUSION_POWER_CELL_LIGHT
+          -
+            - STR_FUSION_RIFLE
+            - STR_FUSION_POWER_CELL_HEAVY
+            - STR_FUSION_POWER_CELL_HEAVY
+          -
+            - STR_FUSION_SPLITTER
+            - STR_FUSION_POWER_CELL_HUGE
+            - STR_FUSION_POWER_CELL_HUGE
+          -
+            - STR_THERMONUCLEAR_PROJECTILE_LAUNCHER
+            - STR_THERMONUCLEAR_PROJECTILE_LAUNCHER_MAGAZINE
+            - STR_THERMONUCLEAR_PROJECTILE_LAUNCHER_MAGAZINE
+  - type: STR_EUROPEAN_OPERATIONS_MISSION
+    width: 60
+    length: 60
+    height: 10
+    terrains: *AlliedOperationTerrains
+    civiliansByType: &EuropeanTroopers
+      STR_EUROPEAN_RIFLEMAN: 12
+      STR_EUROPEAN_ASSAULT: 12
+      STR_EUROPEAN_SUPPORT: 12
+      STR_EUROPEAN_ELITE: 8
+      STR_LEOPARD_TANK: 4
+    alert: STR_EUROPEAN_OPERATIONS_ALERT
+    alertBackground: EUROPEAN_OPERATIONS_MISSION_ALERT_BACKGROUND
+    alertDescription: STR_EUROPEAN_OPERATIONS_MISSION_DESCRIPTION
+    briefing:
+      desc: STR_EUROPEAN_OPERATIONS_MISSION_BRIEFING
+      background: EUROPEAN_OPERATIONS_MISSION_BACKGROUND
+      palette: 2
+    markerName: STR_ALLIED_OPERATION
+    duration: [18, 50]
+    despawnPenalty: 400
+    data: *AlliedOperationData
+  - type: STR_SOVIET_OPERATIONS_MISSION
+    width: 60
+    length: 60
+    height: 10
+    terrains: *AlliedOperationTerrains
+    civiliansByType: &SovietTroopers
+      STR_SOVIET_RIFLEMAN: 12
+      STR_SOVIET_ASSAULT: 12
+      STR_SOVIET_SUPPORT: 12
+      STR_SOVIET_ELITE: 8
+      STR_T54_TANK: 4
+    alert: STR_SOVIET_OPERATIONS_ALERT
+    alertBackground: SOVIET_OPERATIONS_MISSION_ALERT_BACKGROUND
+    alertDescription: STR_SOVIET_OPERATIONS_MISSION_DESCRIPTION
+    briefing:
+      desc: STR_SOVIET_OPERATIONS_MISSION_BRIEFING
+      background: SOVIET_OPERATIONS_MISSION_BACKGROUND
+      palette: 2
+    markerName: STR_ALLIED_OPERATION
+    duration: [18, 50]
+    despawnPenalty: 400
+    data: *AlliedOperationData
+############################################
+  - type: STR_AMERICAN_CITY_DEFENSE
+    width: 60
+    length: 60
+    height: 10
+    terrains: &AlliedCityDefenseTerrains
+      - CULTA
+      - RURAL
+      - URBAN
+      - IDT_AIRPORT
+      - INDUSTRIALSLUM
+      - COMRCURBAN
+    civiliansByType: &AmericanTroopersCityDefense
+      STR_AMERICAN_RIFLEMAN: 9
+      STR_AMERICAN_ASSAULT: 9
+      STR_AMERICAN_SUPPORT: 9
+      STR_AMERICAN_ELITE: 9
+      MALE_CIVILIAN2: 6
+      MALE_CIVILIAN3: 6
+      MALE_CIVILIAN4: 6
+      MALE_CIVILIAN6: 6
+      MALE_CIVILIAN9: 6
+      POLICE_SWAT: 4
+      POLICE_FEMALE_CIVILIAN: 6
+      POLICE_MALE_CIVILIAN: 6
+      FEMALE_CIVILIAN2: 6
+      FEMALE_CIVILIAN3: 6
+      FEMALE_CIVILIAN4: 6
+      FEMALE_CIVILIAN7: 6
+      FEMALE_CIVILIAN8: 6
+      STR_PATTON_TANK: 8
+    alert: STR_AMERICAN_OPERATIONS_ALERT
+    alertBackground: TERROR_SITE_ALERT_BACKGROUND
+    alertDescription: STR_AMERICAN_CITY_DEFENSE_DESCRIPTION
+    briefing:
+      desc: STR_AMERICAN_CITY_DEFENSE_BRIEFING
+      background: AMERICAN_CITY_DEFENSE_BACKGROUND
+      palette: 2
+    markerName: STR_ALLIED_OPERATION
+    duration: [18, 50]
+    despawnPenalty: 600
+    data: *AlliedOperationData
+  - type: STR_EUROPEAN_CITY_DEFENSE
+    width: 60
+    length: 60
+    height: 10
+    terrains: *AlliedCityDefenseTerrains
+    civiliansByType: &EuropeanTroopersCityDefense
+      STR_EUROPEAN_RIFLEMAN: 9
+      STR_EUROPEAN_ASSAULT: 9
+      STR_EUROPEAN_SUPPORT: 9
+      STR_EUROPEAN_ELITE: 9
+      MALE_CIVILIAN2: 6
+      MALE_CIVILIAN3: 6
+      MALE_CIVILIAN4: 6
+      MALE_CIVILIAN6: 6
+      STR_HUMAN_SUIT_BLACK_1: 6
+      STR_HUMAN_SUIT_BLACK_2: 6
+      POLICE_FEMALE_CIVILIAN: 6
+      POLICE_MALE_CIVILIAN: 6
+      FEMALE_CIVILIAN2: 6
+      FEMALE_CIVILIAN3: 6
+      FEMALE_CIVILIAN4: 6
+      FEMALE_CIVILIAN10: 6
+      FEMALE_CIVILIAN13: 6
+      STR_LEOPARD_TANK: 8
+    alert: STR_EUROPEAN_OPERATIONS_ALERT
+    alertBackground: TERROR_SITE_ALERT_BACKGROUND
+    alertDescription: STR_EUROPEAN_CITY_DEFENSE_DESCRIPTION
+    briefing:
+      desc: STR_EUROPEAN_CITY_DEFENSE_BRIEFING
+      background: EUROPEAN_CITY_DEFENSE_BACKGROUND
+      palette: 2
+    markerName: STR_ALLIED_OPERATION
+    duration: [18, 50]
+    despawnPenalty: 600
+    data: *AlliedOperationData
+  - type: STR_SOVIET_CITY_DEFENSE
+    width: 60
+    length: 60
+    height: 10
+    terrains: *AlliedCityDefenseTerrains
+    civiliansByType: &SovietTroopersCityDefense
+      STR_SOVIET_RIFLEMAN: 9
+      STR_SOVIET_ASSAULT: 9
+      STR_SOVIET_SUPPORT: 9
+      STR_SOVIET_ELITE: 9
+      MALE_CIVILIAN2: 6
+      MALE_CIVILIAN3: 6
+      MALE_CIVILIAN4: 6
+      MALE_CIVILIAN6: 6
+      MALE_CIVILIAN9: 6
+      MALE_CIVILIAN10: 6
+      POLICE_FEMALE_CIVILIAN: 6
+      POLICE_MALE_CIVILIAN: 6
+      FEMALE_CIVILIAN2: 6
+      FEMALE_CIVILIAN3: 6
+      FEMALE_CIVILIAN4: 6
+      FEMALE_CIVILIAN7: 6
+      FEMALE_CIVILIAN8: 6
+      STR_T54_TANK: 8
+    alert: STR_SOVIET_OPERATIONS_ALERT
+    alertBackground: TERROR_SITE_ALERT_BACKGROUND
+    alertDescription: STR_SOVIET_CITY_DEFENSE_DESCRIPTION
+    briefing:
+      desc: STR_SOVIET_CITY_DEFENSE_BRIEFING
+      background: SOVIET_CITY_DEFENSE_BACKGROUND
+      palette: 2
+    markerName: STR_ALLIED_OPERATION
+    duration: [18, 50]
+    despawnPenalty: 600
+    data: *AlliedOperationData
+#
+#############################################
+
+  - type: STR_AMERICAN_TANK_BATTLE_MISSION
+    width: 60
+    length: 60
+    height: 10
+    race: STR_ALIEN_TANK_BATTALION
+    terrains: *AlliedOperationTerrains
+    civiliansByType: &AmericanTankBattalion
+      STR_PATTON_TANK: 20
+      STR_SHERIDAN_TANK: 16
+      STR_AMERICAN_SUPPORT: 12
+      STR_AMERICAN_ELITE: 12
+    alert: STR_AMERICAN_OPERATIONS_ALERT
+    alertBackground: AMERICAN_OPERATIONS_MISSION_ALERT_BACKGROUND
+    alertDescription: STR_AMERICAN_OPERATIONS_MISSION_DESCRIPTION
+    briefing:
+      desc: STR_AMERICAN_TANK_BATTLE_BRIEFING
+      background: AMERICAN_OPERATIONS_MISSION_BACKGROUND
+      palette: 2
+    markerName: STR_ALLIED_OPERATION
+    duration: [18, 50]
+    despawnPenalty: 400
+    data: *AlliedOperationData
+  - type: STR_EUROPEAN_TANK_BATTLE_MISSION
+    width: 60
+    length: 60
+    height: 10
+    race: STR_ALIEN_TANK_BATTALION
+    terrains: *AlliedOperationTerrains
+    civiliansByType: &EuropeanTankBattalion
+      STR_EUROPEAN_SUPPORT: 12
+      STR_EUROPEAN_ELITE: 12
+      STR_SALADIN_CAR: 16
+      STR_LEOPARD_TANK: 20
+    alert: STR_EUROPEAN_OPERATIONS_ALERT
+    alertBackground: EUROPEAN_OPERATIONS_MISSION_ALERT_BACKGROUND
+    alertDescription: STR_EUROPEAN_OPERATIONS_MISSION_DESCRIPTION
+    briefing:
+      desc: STR_EUROPEAN_TANK_BATTLE_MISSION_BRIEFING
+      background: EUROPEAN_OPERATIONS_MISSION_BACKGROUND
+      palette: 2
+    markerName: STR_ALLIED_OPERATION
+    duration: [18, 50]
+    despawnPenalty: 400
+    data: *AlliedOperationData
+  - type: STR_SOVIET_TANK_BATTLE_MISSION
+    width: 60
+    length: 60
+    height: 10
+    race: STR_ALIEN_TANK_BATTALION
+    terrains: *AlliedOperationTerrains
+    civiliansByType: &SovietTankBattalion
+      STR_SOVIET_SUPPORT: 12
+      STR_SOVIET_ELITE: 12
+      STR_BMP_TANK: 16
+      STR_T54_TANK: 20
+    alert: STR_SOVIET_OPERATIONS_ALERT
+    alertBackground: SOVIET_OPERATIONS_MISSION_ALERT_BACKGROUND
+    alertDescription: STR_SOVIET_OPERATIONS_MISSION_DESCRIPTION
+    briefing:
+      desc: STR_SOVIET_TANK_BATTLE_MISSION_BRIEFING
+      background: SOVIET_OPERATIONS_MISSION_BACKGROUND
+      palette: 2
+    markerName: STR_ALLIED_OPERATION
+    duration: [18, 50]
+    despawnPenalty: 400
+    data: *AlliedOperationData
+
+#############################################
+
+extraSprites:
+  - type: TERROR_SITE_ALERT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/TERROR_SITE_ALERT_BACKGROUND.png
+  - type: AMERICAN_OPERATIONS_MISSION_ALERT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/AMERICAN_OPERATIONS_MISSION_ALERT_BACKGROUND.png
+  - type: AMERICAN_OPERATIONS_MISSION_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/AMERICAN_OPERATIONS_MISSION_BACKGROUND.png
+  - type: EUROPEAN_OPERATIONS_MISSION_ALERT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/EUROPEAN_OPERATIONS_MISSION_ALERT_BACKGROUND.png
+  - type: EUROPEAN_OPERATIONS_MISSION_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/EUROPEAN_OPERATIONS_MISSION_BACKGROUND.png
+  - type: SOVIET_OPERATIONS_MISSION_ALERT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/SOVIET_OPERATIONS_MISSION_ALERT_BACKGROUND.png
+  - type: SOVIET_OPERATIONS_MISSION_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/SOVIET_OPERATIONS_MISSION_BACKGROUND.png
+  - type: AMERICAN_CITY_DEFENSE_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/AMERICAN_CITY_DEFENSE_BACKGROUND.png
+  - type: EUROPEAN_CITY_DEFENSE_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/EUROPEAN_CITY_DEFENSE_BACKGROUND.png
+  - type: SOVIET_CITY_DEFENSE_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/SOVIET_CITY_DEFENSE_BACKGROUND.png

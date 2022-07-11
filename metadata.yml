@@ -1,0 +1,10 @@
+name: "UNEXCOM Scourge Mode"
+version: "0.0.1"
+author: "Brother^2"
+description: "Fuck You."
+id: scourge_mode
+master: UNEXCOM
+isMaster: false
+reservedSpace: 7
+loadResources:
+  - UFO

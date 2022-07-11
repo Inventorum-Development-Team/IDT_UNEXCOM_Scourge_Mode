@@ -1,0 +1,14 @@
+# spellchecker:words TACTICBACK Juliett
+# X-COM 1 (UFO: Enemy Unknown) ruleset
+# For documentation on these values, see http://ufopaedia.org/index.php?title=Rulesets_(OpenXcom)
+startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 7
+  day: 1
+  month: 10
+  year: 1972
+initialFunding: 16000
+ai:
+  useDelayPsionic: 1
