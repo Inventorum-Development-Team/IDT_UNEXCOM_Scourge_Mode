@@ -87,26 +87,7 @@ items:
     costSell: 690000
 
   - type: STR_BATTERY
-    categories: [STR_LIGHT_EQUIPMENT, STR_LASER]
-    size: 0.1
     costBuy: 55000
-    weight: 10
-    bigSprite: 2028
-    floorSprite: 124
-    battleType: 6
-    invWidth: 1
-    invHeight: 1
-    stimulant: 1
-    manaRecovery: 40
-    isConsumable: false
-    medikitTargetSelf: true
-    medikitType: 2
-    costUse:
-      time: 15
-    flatRate: true
-    attraction: 6
-    experienceTrainingMode: 32
-    medikitActionName: STR_USE_BATTERY
 
 manufacture:
   - name: STR_PEACEMAKER
