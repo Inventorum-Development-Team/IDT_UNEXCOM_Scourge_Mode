@@ -58,7 +58,7 @@ items:
     ammo:
       0:
         compatibleAmmo: [ STR_5_56MM_NATO_RIFLE_X50, STR_5_56MM_NATO_RIFLE_X100 ]
-    listOrder: 200944
+    listOrder: 200962
   - type: STR_STONER_SNIPER
     ammo:
       0:
@@ -92,7 +92,7 @@ items:
       RandomWound: false
     clipSize: 50
     attraction: 8
-    listOrder: 200952
+    listOrder: 200963
   - type: STR_5_56MM_NATO_RIFLE_X100
     requiresBuy:
       - STR_UN_CUSTOM_WEAPONS
@@ -120,7 +120,7 @@ items:
     clipSize: 100
     battleType: 2
     attraction: 8
-    listOrder: 200952
+    listOrder: 200964
 
   - type: STR_ALIEN_LASER_PISTOL
     costSell: 16000
