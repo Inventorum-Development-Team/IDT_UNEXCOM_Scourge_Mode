@@ -30,7 +30,6 @@ missionScripts:
   - delete: AmericanCityDefense
   - delete: EuropeanCityDefense
   - delete: SovietCityDefense
-  - delete: AlienSpaceStation
 
 ## Terrorist Flybys
   - type: terroristsNA
@@ -92,35 +91,37 @@ missionScripts:
 
 ## Terrorist Attacks
   - type: terroristIntimidation1
-    firstMonth: 0
+    firstMonth: 1
+    useTable: false
     missionWeights:
       0:
         STR_HOSTAGE_CRISIS: 100
     regionWeights:
       0:
         REGION_TERRORIST_HOSTAGE_CRISIS: 100
-    targetBaseOdds: 100
+    useTable: false
     researchTriggers:
       STR_END_OF_TERRORISTS: false
     startDelay: 15
     randomDelay: 25000
-    executionOdds: 100
+    executionOdds: 75
   - type: terroristIntimidation2
-    firstMonth: 0
+    firstMonth: 1
+    useTable: false
     missionWeights:
       0:
         STR_HIJACKED_PLANE: 100
     regionWeights:
       0:
         REGION_TERRORIST_HIJACKED_PLANE: 100
-    targetBaseOdds: 100
+    useTable: false
     researchTriggers:
       STR_END_OF_TERRORISTS: false
     startDelay: 15
     randomDelay: 25000
-    executionOdds: 70
+    executionOdds: 75
   - type: terroristNA2
-    firstMonth: 1
+    firstMonth: 0
     missionWeights:
       0:
         STR_HUMAN_TERROR_ATTACK: 100
@@ -132,9 +133,9 @@ missionScripts:
       STR_END_OF_TERRORISTS: false
     startDelay: 15
     randomDelay: 25000
-    executionOdds: 75
+    executionOdds: 50
   - type: terroristEuro2
-    firstMonth: 1
+    firstMonth: 0
     missionWeights:
       0:
         STR_HUMAN_TERROR_ATTACK: 100
@@ -146,9 +147,9 @@ missionScripts:
       STR_END_OF_TERRORISTS: false
     startDelay: 15
     randomDelay: 25000
-    executionOdds: 75
+    executionOdds: 50
   - type: terroristCAsia2
-    firstMonth: 1
+    firstMonth: 0
     missionWeights:
       0:
         STR_HUMAN_TERROR_ATTACK: 100
@@ -160,9 +161,9 @@ missionScripts:
       STR_END_OF_TERRORISTS: false
     startDelay: 15
     randomDelay: 25000
-    executionOdds: 75
+    executionOdds: 50
   - type: terroristSEAsia2
-    firstMonth: 1
+    firstMonth: 0
     missionWeights:
       0:
         STR_HUMAN_TERROR_ATTACK: 100
@@ -174,7 +175,7 @@ missionScripts:
       STR_END_OF_TERRORISTS: false
     startDelay: 15
     randomDelay: 25000
-    executionOdds: 75
+    executionOdds: 50
 
 ## Terrorist HQ
   - type: terroristHQ
@@ -200,11 +201,10 @@ missionScripts:
       0:
         STR_NORTH_AMERICA: 75
         STR_SOUTH_AMERICA: 25
-    firstMonth: 0
     startDelay: 150
     researchTriggers:
       STR_UNITED_WE_STAND_RESEARCH: false
-    executionOdds: 75
+    executionOdds: 70
   - type: alienResearchEurope
     firstMonth: 1
     missionWeights:
@@ -215,11 +215,10 @@ missionScripts:
       0:
         STR_EUROPE: 75
         STR_CENTRAL_ASIA: 25
-    firstMonth: 0
     startDelay: 150
     researchTriggers:
       STR_UNITED_WE_STAND_RESEARCH: false
-    executionOdds: 75
+    executionOdds: 70
   - type: alienResearchAsia
     firstMonth: 1
     missionWeights:
@@ -231,11 +230,10 @@ missionScripts:
         STR_SOUTH_EAST_ASIA: 40
         STR_SIBERIA: 20
         STR_AUSTRALASIA: 40
-    firstMonth: 0
     startDelay: 150
     researchTriggers:
       STR_UNITED_WE_STAND_RESEARCH: false
-    executionOdds: 75
+    executionOdds: 70
   - type: alienResearchAfrica
     firstMonth: 1
     missionWeights:
@@ -246,16 +244,14 @@ missionScripts:
       0:
         STR_NORTH_AFRICA: 50
         STR_SOUTHERN_AFRICA: 50
-    firstMonth: 0
     startDelay: 150
     researchTriggers:
       STR_UNITED_WE_STAND_RESEARCH: false
-    executionOdds: 75
+    executionOdds: 70
 
 ## Terror Missions
   - type: recurringTerrorAmerica
     firstMonth: 2
-    executionOdds: 100
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
@@ -268,10 +264,9 @@ missionScripts:
      STR_UNITED_WE_STAND_RESEARCH: false
     startDelay: 20
     randomDelay: 43500
-    executionOdds: 75
+    executionOdds: 50
   - type: recurringTerrorEurope
     firstMonth: 2
-    executionOdds: 100
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
@@ -284,10 +279,9 @@ missionScripts:
      STR_UNITED_WE_STAND_RESEARCH: false
     startDelay: 20
     randomDelay: 43500
-    executionOdds: 75
+    executionOdds: 50
   - type: recurringTerrorAsia
     firstMonth: 2
-    executionOdds: 100
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
@@ -301,10 +295,9 @@ missionScripts:
      STR_UNITED_WE_STAND_RESEARCH: false
     startDelay: 20
     randomDelay: 43500
-    executionOdds: 75
+    executionOdds: 50
   - type: recurringTerrorAfrica
     firstMonth: 2
-    executionOdds: 100
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
@@ -317,15 +310,14 @@ missionScripts:
      STR_UNITED_WE_STAND_RESEARCH: false
     startDelay: 20
     randomDelay: 43500
-    executionOdds: 75
+    executionOdds: 50
 
 ## Bases Pre-UWS
   - type: sneakyBase
-    firstMonth: 1
+    firstMonth: 0
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
-    firstMonth: 1
     startDelay: 1000
     randomDelay: 43500
     researchTriggers:
@@ -381,7 +373,7 @@ missionScripts:
     startDelay: 1000
     minScore: 1800
     researchTriggers:
-      STR_DEVASTATION_COMPLETED: true
+      STR_DEVASTATION_COMPLETED: false
     randomDelay: 20000
   - type: AprilScourge2
     missionWeights:
@@ -391,7 +383,7 @@ missionScripts:
     startDelay: 1000
     minScore: 1800
     researchTriggers:
-      STR_DEVASTATION_COMPLETED: true
+      STR_DEVASTATION_COMPLETED: false
     randomDelay: 20000
   - type: AprilScourge3
     missionWeights:
@@ -401,7 +393,7 @@ missionScripts:
     startDelay: 1000
     minScore: 1800
     researchTriggers:
-      STR_DEVASTATION_COMPLETED: true
+      STR_DEVASTATION_COMPLETED: false
     randomDelay: 20000
   - type: AprilScourge4
     missionWeights:
@@ -411,7 +403,7 @@ missionScripts:
     startDelay: 1000
     minScore: 1800
     researchTriggers:
-      STR_DEVASTATION_COMPLETED: true
+      STR_DEVASTATION_COMPLETED: false
     randomDelay: 20000
   - type: AprilScourge5
     missionWeights:
@@ -421,7 +413,7 @@ missionScripts:
     startDelay: 1000
     minScore: 1800
     researchTriggers:
-      STR_DEVASTATION_COMPLETED: true
+      STR_DEVASTATION_COMPLETED: false
     randomDelay: 20000
 
 ## Anti-Ayy Ops Post-UWS

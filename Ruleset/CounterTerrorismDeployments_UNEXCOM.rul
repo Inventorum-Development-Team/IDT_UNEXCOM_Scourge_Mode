@@ -667,15 +667,11 @@ alienDeployments:
     duration: [288,312]
     markerName: STR_TERRORIST_HQ_MARKER
     startingCondition: STR_TERRORIST_MISSION
-    civilians: 18
+    civilians: 6
     civiliansByType:
-      POLICE_SWAT: 3
-      STR_AMERICAN_ELITE: 3
-      STR_EUROPEAN_ELITE: 3
-      STR_SOVIET_ELITE: 3
-      STR_BMP_TANK: 1
-      STR_SALADIN_CAR: 1
-      STR_SHERIDAN_TANK: 1
+      STR_AMERICAN_ELITE: 2
+      STR_EUROPEAN_ELITE: 2
+      STR_SOVIET_ELITE: 2
 
 items:
   - type: STR_ELERIUM_115
