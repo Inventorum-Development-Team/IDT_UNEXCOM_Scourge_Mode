@@ -1,10 +1,10 @@
 name: "UNEXCOM Scourge Mode"
-version: "0.0.1"
+version: "0.1.2"
 author: "Brother^2"
-description: "Fuck You."
+description: "A difficulty overhaul for UNEXCOM."
 id: scourge_mode
 master: UNEXCOM
 isMaster: false
-reservedSpace: 7
+reservedSpace: 8
 loadResources:
   - UFO
