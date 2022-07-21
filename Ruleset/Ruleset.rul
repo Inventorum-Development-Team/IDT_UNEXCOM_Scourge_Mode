@@ -2769,8 +2769,8 @@ alienDeployments:
       music: GMENBASE
 
   - type: STR_AMERICAN_OPERATIONS_MISSION
-    width: 100
-    length: 100
+    width: 150
+    length: 150
     height: 10
     terrains: &AlliedOperationTerrains2
       - MOUNTGRASS
@@ -2784,11 +2784,11 @@ alienDeployments:
       - FORESTSWAMP
       - RURAL
     civiliansByType: &AmericanTroopers2
-      STR_AMERICAN_RIFLEMAN: 22
-      STR_AMERICAN_ASSAULT: 6
-      STR_AMERICAN_SUPPORT: 6
-      STR_AMERICAN_ELITE: 3
-      STR_PATTON_TANK: 3
+      STR_AMERICAN_RIFLEMAN: 60
+      STR_AMERICAN_ASSAULT: 18
+      STR_AMERICAN_SUPPORT: 18
+      STR_AMERICAN_ELITE: 12
+      STR_PATTON_TANK: 12
     alert: STR_AMERICAN_OPERATIONS_ALERT
     alertBackground: AMERICAN_OPERATIONS_MISSION_ALERT_BACKGROUND
     alertDescription: STR_AMERICAN_OPERATIONS_MISSION_DESCRIPTION
@@ -2880,16 +2880,16 @@ alienDeployments:
             - STR_MIND_PROBE
             - STR_ALIEN_GRENADE
   - type: STR_EUROPEAN_OPERATIONS_MISSION
-    width: 100
-    length: 100
+    width: 150
+    length: 150
     height: 10
     terrains: *AlliedOperationTerrains2
     civiliansByType:
-      STR_EUROPEAN_RIFLEMAN: 22
-      STR_EUROPEAN_ASSAULT: 6
-      STR_EUROPEAN_SUPPORT: 6
-      STR_EUROPEAN_ELITE: 3
-      STR_LEOPARD_TANK: 3
+      STR_EUROPEAN_RIFLEMAN: 60
+      STR_EUROPEAN_ASSAULT: 18
+      STR_EUROPEAN_SUPPORT: 18
+      STR_EUROPEAN_ELITE: 12
+      STR_LEOPARD_TANK: 12
     alert: STR_EUROPEAN_OPERATIONS_ALERT
     alertBackground: EUROPEAN_OPERATIONS_MISSION_ALERT_BACKGROUND
     alertDescription: STR_EUROPEAN_OPERATIONS_MISSION_DESCRIPTION
@@ -2902,16 +2902,16 @@ alienDeployments:
     despawnPenalty: 400
     data: *AlliedOperationData2
   - type: STR_SOVIET_OPERATIONS_MISSION
-    width: 100
-    length: 100
+    width: 150
+    length: 150
     height: 10
     terrains: *AlliedOperationTerrains2
     civiliansByType:
-      STR_SOVIET_RIFLEMAN: 22
-      STR_SOVIET_ASSAULT: 6
-      STR_SOVIET_SUPPORT: 6
-      STR_SOVIET_ELITE: 3
-      STR_T54_TANK: 3
+      STR_SOVIET_RIFLEMAN: 60
+      STR_SOVIET_ASSAULT: 18
+      STR_SOVIET_SUPPORT: 18
+      STR_SOVIET_ELITE: 12
+      STR_T54_TANK: 12
     alert: STR_SOVIET_OPERATIONS_ALERT
     alertBackground: SOVIET_OPERATIONS_MISSION_ALERT_BACKGROUND
     alertDescription: STR_SOVIET_OPERATIONS_MISSION_DESCRIPTION
@@ -2924,8 +2924,8 @@ alienDeployments:
     despawnPenalty: 400
     data: *AlliedOperationData2
   - type: STR_AMERICAN_CITY_DEFENSE
-    width: 100
-    length: 100
+    width: 200
+    length: 200
     height: 10
     terrains: &AlliedCityDefenseTerrains2
       - CULTA
@@ -2935,23 +2935,23 @@ alienDeployments:
       - INDUSTRIALSLUM
       - COMRCURBAN
     civiliansByType: &AmericanTroopersCityDefense
-      STR_AMERICAN_RIFLEMAN: 12
-      STR_AMERICAN_ASSAULT: 4
-      STR_AMERICAN_SUPPORT: 4
-      STR_AMERICAN_ELITE: 6
-      MALE_CIVILIAN2: 3
-      MALE_CIVILIAN3: 3
-      MALE_CIVILIAN4: 3
-      MALE_CIVILIAN6: 3
-      MALE_CIVILIAN9: 3
-      POLICE_SWAT: 3
-      POLICE_FEMALE_CIVILIAN: 3
-      POLICE_MALE_CIVILIAN: 3
-      FEMALE_CIVILIAN2: 3
-      FEMALE_CIVILIAN3: 3
-      FEMALE_CIVILIAN4: 3
-      FEMALE_CIVILIAN7: 3
-      FEMALE_CIVILIAN8: 3
+      STR_AMERICAN_RIFLEMAN: 60
+      STR_AMERICAN_ASSAULT: 18
+      STR_AMERICAN_SUPPORT: 18
+      STR_AMERICAN_ELITE: 12
+      MALE_CIVILIAN2: 18
+      MALE_CIVILIAN3: 18
+      MALE_CIVILIAN4: 18
+      MALE_CIVILIAN6: 18
+      MALE_CIVILIAN9: 18
+      POLICE_SWAT: 9
+      POLICE_FEMALE_CIVILIAN: 9
+      POLICE_MALE_CIVILIAN: 9
+      FEMALE_CIVILIAN2: 18
+      FEMALE_CIVILIAN3: 18
+      FEMALE_CIVILIAN4: 18
+      FEMALE_CIVILIAN7: 18
+      FEMALE_CIVILIAN8: 18
     alert: STR_AMERICAN_OPERATIONS_ALERT
     alertBackground: TERROR_SITE_ALERT_BACKGROUND
     alertDescription: STR_AMERICAN_CITY_DEFENSE_DESCRIPTION
@@ -2964,28 +2964,28 @@ alienDeployments:
     despawnPenalty: 600
     data: *AlliedOperationData2
   - type: STR_EUROPEAN_CITY_DEFENSE
-    width: 100
-    length: 100
+    width: 200
+    length: 200
     height: 10
     terrains: *AlliedCityDefenseTerrains2
     civiliansByType: &EuropeanTroopersCityDefense
-      STR_EUROPEAN_RIFLEMAN: 12
-      STR_EUROPEAN_ASSAULT: 4
-      STR_EUROPEAN_SUPPORT: 4
-      STR_EUROPEAN_ELITE: 6
-      MALE_CIVILIAN2: 3
-      MALE_CIVILIAN3: 3
-      MALE_CIVILIAN4: 3
-      MALE_CIVILIAN6: 3
-      STR_HUMAN_SUIT_BLACK_1: 3
-      STR_HUMAN_SUIT_BLACK_2: 3
-      POLICE_FEMALE_CIVILIAN: 3
-      POLICE_MALE_CIVILIAN: 3
-      FEMALE_CIVILIAN2: 3
-      FEMALE_CIVILIAN3: 3
-      FEMALE_CIVILIAN4: 3
-      FEMALE_CIVILIAN10: 3
-      FEMALE_CIVILIAN13: 3
+      STR_EUROPEAN_RIFLEMAN: 60
+      STR_EUROPEAN_ASSAULT: 18
+      STR_EUROPEAN_SUPPORT: 18
+      STR_EUROPEAN_ELITE: 12
+      MALE_CIVILIAN2: 18
+      MALE_CIVILIAN3: 18
+      MALE_CIVILIAN4: 18
+      MALE_CIVILIAN6: 18
+      STR_HUMAN_SUIT_BLACK_1: 9
+      STR_HUMAN_SUIT_BLACK_2: 9
+      POLICE_FEMALE_CIVILIAN: 9
+      POLICE_MALE_CIVILIAN: 9
+      FEMALE_CIVILIAN2: 18
+      FEMALE_CIVILIAN3: 18
+      FEMALE_CIVILIAN4: 18
+      FEMALE_CIVILIAN10: 18
+      FEMALE_CIVILIAN13: 18
     alert: STR_EUROPEAN_OPERATIONS_ALERT
     alertBackground: TERROR_SITE_ALERT_BACKGROUND
     alertDescription: STR_EUROPEAN_CITY_DEFENSE_DESCRIPTION
@@ -2998,28 +2998,28 @@ alienDeployments:
     despawnPenalty: 600
     data: *AlliedOperationData2
   - type: STR_SOVIET_CITY_DEFENSE
-    width: 100
-    length: 100
+    width: 200
+    length: 200
     height: 10
     terrains: *AlliedCityDefenseTerrains2
     civiliansByType: &SovietTroopersCityDefense
-      STR_SOVIET_RIFLEMAN: 12
-      STR_SOVIET_ASSAULT: 4
-      STR_SOVIET_SUPPORT: 4
-      STR_SOVIET_ELITE: 6
-      MALE_CIVILIAN2: 3
-      MALE_CIVILIAN3: 3
-      MALE_CIVILIAN4: 3
-      MALE_CIVILIAN6: 3
-      MALE_CIVILIAN9: 3
-      MALE_CIVILIAN10: 3
-      POLICE_FEMALE_CIVILIAN: 3
-      POLICE_MALE_CIVILIAN: 3
-      FEMALE_CIVILIAN2: 3
-      FEMALE_CIVILIAN3: 3
-      FEMALE_CIVILIAN4: 3
-      FEMALE_CIVILIAN7: 3
-      FEMALE_CIVILIAN8: 3
+      STR_SOVIET_RIFLEMAN: 60
+      STR_SOVIET_ASSAULT: 18
+      STR_SOVIET_SUPPORT: 18
+      STR_SOVIET_ELITE: 12
+      MALE_CIVILIAN2: 18
+      MALE_CIVILIAN3: 18
+      MALE_CIVILIAN4: 18
+      MALE_CIVILIAN6: 18
+      MALE_CIVILIAN9: 18
+      MALE_CIVILIAN10: 18
+      POLICE_FEMALE_CIVILIAN: 9
+      POLICE_MALE_CIVILIAN: 9
+      FEMALE_CIVILIAN2: 18
+      FEMALE_CIVILIAN3: 18
+      FEMALE_CIVILIAN4: 18
+      FEMALE_CIVILIAN7: 18
+      FEMALE_CIVILIAN8: 18
     alert: STR_SOVIET_OPERATIONS_ALERT
     alertBackground: TERROR_SITE_ALERT_BACKGROUND
     alertDescription: STR_SOVIET_CITY_DEFENSE_DESCRIPTION
@@ -3032,16 +3032,16 @@ alienDeployments:
     despawnPenalty: 600
     data: *AlliedOperationData2
   - type: STR_AMERICAN_TANK_BATTLE_MISSION
-    width: 100
-    length: 100
+    width: 150
+    length: 150
     height: 10
     race: STR_ALIEN_TANK_BATTALION
     terrains: *AlliedOperationTerrains2
     civiliansByType: &AmericanTankBattalion
-      STR_PATTON_TANK: 20
-      STR_SHERIDAN_TANK: 10
-      STR_AMERICAN_SUPPORT: 6
-      STR_AMERICAN_ELITE: 6
+      STR_PATTON_TANK: 24
+      STR_SHERIDAN_TANK: 18
+      STR_AMERICAN_SUPPORT: 32
+      STR_AMERICAN_ELITE: 12
     alert: STR_AMERICAN_OPERATIONS_ALERT
     alertBackground: AMERICAN_OPERATIONS_MISSION_ALERT_BACKGROUND
     alertDescription: STR_AMERICAN_OPERATIONS_MISSION_DESCRIPTION
@@ -3054,16 +3054,16 @@ alienDeployments:
     despawnPenalty: 400
     data: *AlliedOperationData2
   - type: STR_EUROPEAN_TANK_BATTLE_MISSION
-    width: 100
-    length: 100
+    width: 150
+    length: 150
     height: 10
     race: STR_ALIEN_TANK_BATTALION
     terrains: *AlliedOperationTerrains2
     civiliansByType: &EuropeanTankBattalion
-      STR_EUROPEAN_SUPPORT: 6
-      STR_EUROPEAN_ELITE: 6
-      STR_SALADIN_CAR: 10
-      STR_LEOPARD_TANK: 20
+      STR_EUROPEAN_SUPPORT: 32
+      STR_EUROPEAN_ELITE: 12
+      STR_SALADIN_CAR: 18
+      STR_LEOPARD_TANK: 24
     alert: STR_EUROPEAN_OPERATIONS_ALERT
     alertBackground: EUROPEAN_OPERATIONS_MISSION_ALERT_BACKGROUND
     alertDescription: STR_EUROPEAN_OPERATIONS_MISSION_DESCRIPTION
@@ -3076,16 +3076,16 @@ alienDeployments:
     despawnPenalty: 400
     data: *AlliedOperationData2
   - type: STR_SOVIET_TANK_BATTLE_MISSION
-    width: 100
-    length: 100
+    width: 150
+    length: 150
     height: 10
     race: STR_ALIEN_TANK_BATTALION
     terrains: *AlliedOperationTerrains2
     civiliansByType: &SovietTankBattalion
-      STR_SOVIET_SUPPORT: 6
-      STR_SOVIET_ELITE: 6
-      STR_BMP_TANK: 10
-      STR_T54_TANK: 20
+      STR_SOVIET_SUPPORT: 32
+      STR_SOVIET_ELITE: 12
+      STR_BMP_TANK: 18
+      STR_T54_TANK: 24
     alert: STR_SOVIET_OPERATIONS_ALERT
     alertBackground: SOVIET_OPERATIONS_MISSION_ALERT_BACKGROUND
     alertDescription: STR_SOVIET_OPERATIONS_MISSION_DESCRIPTION
@@ -3815,7 +3815,7 @@ alienDeployments:
     length: 100
     height: 10
     civiliansByType:
-      STR_ALLIED_SOVIET_COSMONAUT: 16
+      STR_ALLIED_SOVIET_COSMONAUT: 50
     terrains:
       - IDT_MOON_OPERATION_DEVASTATION
     alert: STR_OPERATION_DEVASTATION_ALERT
@@ -3860,8 +3860,8 @@ alienDeployments:
   - type: STR_MARS_CYDONIA_CITY
     data: &AlienSpaceBaseDefenders3
       - alienRank: 5
-        lowQty: 224
-        highQty: 224
+        lowQty: 144
+        highQty: 144
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
@@ -4039,12 +4039,35 @@ alienDeployments:
       showCraft: false
   - type: STR_MARS_THE_FINAL_ASSAULT
     height: 2
-    data: *AlienSpaceBaseDefenders2
+    data:
+      - alienRank: 0
+        customUnitType: STR_ETHEREAL_COMMANDER
+        lowQty: 6
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_ETHEREAL_NOBLE_SWORD
+            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 0
+        customUnitType: STR_ARMORED_MUTON_LEADER
+        lowQty: 18
+        highQty: 18
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_FUSION_LANCE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
     width: 80
     length: 80
     civiliansByType:
-      STR_ALLIED_SOVIET_COSMONAUT: 10
-      STR_ALLIED_AMERICAN_ASTRONAUT: 10
+      STR_ALLIED_SOVIET_COSMONAUT: 30
+      STR_ALLIED_AMERICAN_ASTRONAUT: 30
     terrains:
       - UBASE_MARS
     shade: 5
