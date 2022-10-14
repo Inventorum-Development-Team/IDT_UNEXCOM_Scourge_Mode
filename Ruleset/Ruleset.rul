@@ -2524,6 +2524,7 @@ alienDeployments:
     huntMissionWeights: *INTERCEPTION_MISSIONS2
 
   - type: STR_ALIEN_BASE_ASSAULT_STAGE_3_UNDERGROUND
+    missionBountyItem: STR_HYPER_WAVE_ENCODER
     data: *AlienFortRanks2
     briefing:
       textOffset: -16
