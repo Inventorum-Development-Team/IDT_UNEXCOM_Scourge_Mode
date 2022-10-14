@@ -1,5 +1,5 @@
 difficultyDemigod: true
-initialFunding: 13000
+initialFunding: 6600
 startingDifficulty: 4
 ai:
   useDelayPsionic: 1
