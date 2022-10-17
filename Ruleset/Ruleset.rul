@@ -4442,44 +4442,41 @@ missionScripts:
   - type: AprilScourge1
     missionWeights:
       0:
-        STR_AIR_SUPERIORITY_3: 100
+        STR_SCOURGE: 100
     firstMonth: 6
-    lastMonth: 6
     startDelay: 1000
     minScore: 1000
     targetBaseOdds: 100
     researchTriggers:
       STR_ALLOY_AEROSPACE: true
-      STR_DEVASTATION_COMPLETED: false
+      STR_ALIEN_ID_CODES: false
     randomDelay: 20000
     varName: scourge
     maxRuns: 1
   - type: AprilScourge2
     missionWeights:
       0:
-        STR_AIR_SUPERIORITY_3: 100
+        STR_SCOURGE: 100
     firstMonth: 6
-    lastMonth: 6
     startDelay: 1000
     minScore: 1000
     targetBaseOdds: 80
     researchTriggers:
       STR_UFO_CONSTRUCTION: true
-      STR_DEVASTATION_COMPLETED: false
+      STR_ALIEN_ID_CODES: false
     randomDelay: 20000
     varName: scourge
     maxRuns: 1
   - type: AprilScourge3
     missionWeights:
       0:
-        STR_AIR_SUPERIORITY_3: 100
+        STR_SCOURGE: 100
     firstMonth: 6
-    lastMonth: 6
     startDelay: 1000
     minScore: 1000
     targetBaseOdds: 50
     researchTriggers:
-      STR_DEVASTATION_COMPLETED: false
+      STR_ALIEN_ID_CODES: false
     randomDelay: 20000
     varName: scourge
     maxRuns: 1
@@ -4600,6 +4597,67 @@ missionScripts:
     executionOdds: 60
 
 alienMissions:
+  - type: STR_SCOURGE
+    points: 10
+    objective: 3
+    operationType: 5
+    raceWeights:
+      0:
+        STR_SECTOID: 2
+        STR_FLOATER: 2
+        STR_SNAKEMAN: 2
+        STR_CHTONITE: 1
+        STR_REPTOID: 1
+        STR_CEREBREAL: 1
+      6:
+        STR_SECTOID: 2
+        STR_FLOATER: 2
+        STR_SNAKEMAN: 2
+        STR_CHTONITE: 2
+        STR_REPTOID: 2
+        STR_CEREBREAL: 2
+        STR_ARMORED_FLOATER: 4
+        STR_ARMORED_SECTOID: 4
+        STR_ARMORED_SNAKEMAN: 4
+        STR_ARMORED_MUTON: 1
+        STR_ETHEREAL: 1
+      12:
+        STR_SECTOID: 1
+        STR_FLOATER: 1
+        STR_SNAKEMAN: 1
+        STR_CHTONITE: 2
+        STR_REPTOID: 2
+        STR_CEREBREAL: 2
+        STR_ARMORED_FLOATER: 4
+        STR_ARMORED_SECTOID: 4
+        STR_ARMORED_SNAKEMAN: 4
+        STR_ARMORED_MUTON: 5
+        STR_ETHEREAL: 2
+    waves:
+      - ufo: STR_SMALL_FIGHTER
+        count: 1
+        trajectory: P2
+        timer: 5000
+        huntMode: 1
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P2
+        timer: 9000
+      - ufo: STR_SMALL_FIGHTER
+        count: 2
+        trajectory: P2
+        timer: 1
+        huntMode: 1
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P2
+        timer: 15000
+      - ufo: STR_FIGHTER_SHIP
+        count: 1
+        trajectory: P2
+        timer: 1
+        huntMode: 1
+
   - type: STR_HUMAN_RECON
     raceWeights:
       0:
@@ -4619,6 +4677,7 @@ alienMissions:
         trajectory: P911
         timer: 1
         huntMode: 1
+
   - type: STR_HUMAN_RECON2
     raceWeights:
       0:
