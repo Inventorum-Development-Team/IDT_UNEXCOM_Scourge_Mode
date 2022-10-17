@@ -3626,7 +3626,25 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - []
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
     width: 50
     length: 20
     height: 10
