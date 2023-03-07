@@ -3247,8 +3247,8 @@ alienDeployments:
       music: GMENBASE
 
   - type: STR_AMERICAN_OPERATIONS_MISSION
-    width: 150
-    length: 150
+    width: 70
+    length: 70
     height: 10
     terrains: &AlliedOperationTerrains2
       - MOUNTGRASS
@@ -3358,8 +3358,8 @@ alienDeployments:
             - STR_MIND_PROBE
             - STR_ALIEN_GRENADE
   - type: STR_EUROPEAN_OPERATIONS_MISSION
-    width: 150
-    length: 150
+    width: 70
+    length: 70
     height: 10
     terrains: *AlliedOperationTerrains2
     civiliansByType:
@@ -3380,8 +3380,8 @@ alienDeployments:
     despawnPenalty: 400
     data: *AlliedOperationData2
   - type: STR_SOVIET_OPERATIONS_MISSION
-    width: 150
-    length: 150
+    width: 70
+    length: 70
     height: 10
     terrains: *AlliedOperationTerrains2
     civiliansByType:
@@ -3402,8 +3402,8 @@ alienDeployments:
     despawnPenalty: 400
     data: *AlliedOperationData2
   - type: STR_AMERICAN_CITY_DEFENSE
-    width: 200
-    length: 200
+    width: 100
+    length: 100
     height: 10
     terrains: &AlliedCityDefenseTerrains2
       - CULTA
@@ -3442,8 +3442,8 @@ alienDeployments:
     despawnPenalty: 600
     data: *AlliedOperationData2
   - type: STR_EUROPEAN_CITY_DEFENSE
-    width: 200
-    length: 200
+    width: 100
+    length: 100
     height: 10
     terrains: *AlliedCityDefenseTerrains2
     civiliansByType: &EuropeanTroopersCityDefense
@@ -3476,8 +3476,8 @@ alienDeployments:
     despawnPenalty: 600
     data: *AlliedOperationData2
   - type: STR_SOVIET_CITY_DEFENSE
-    width: 200
-    length: 200
+    width: 100
+    length: 100
     height: 10
     terrains: *AlliedCityDefenseTerrains2
     civiliansByType: &SovietTroopersCityDefense
@@ -3510,8 +3510,8 @@ alienDeployments:
     despawnPenalty: 600
     data: *AlliedOperationData2
   - type: STR_AMERICAN_TANK_BATTLE_MISSION
-    width: 150
-    length: 150
+    width: 70
+    length: 70
     height: 10
     race: STR_ALIEN_TANK_BATTALION
     terrains: *AlliedOperationTerrains2
@@ -3532,8 +3532,8 @@ alienDeployments:
     despawnPenalty: 400
     data: *AlliedOperationData2
   - type: STR_EUROPEAN_TANK_BATTLE_MISSION
-    width: 150
-    length: 150
+    width: 70
+    length: 70
     height: 10
     race: STR_ALIEN_TANK_BATTALION
     terrains: *AlliedOperationTerrains2
@@ -3554,8 +3554,8 @@ alienDeployments:
     despawnPenalty: 400
     data: *AlliedOperationData2
   - type: STR_SOVIET_TANK_BATTLE_MISSION
-    width: 150
-    length: 150
+    width: 70
+    length: 70
     height: 10
     race: STR_ALIEN_TANK_BATTALION
     terrains: *AlliedOperationTerrains2
@@ -4328,8 +4328,8 @@ alienDeployments:
 # Operation Downfall
   - type: STR_MARS_CYDONIA_LANDING
     data: *AlienSpaceBaseDefenders2
-    width: 100
-    length: 100
+    width: 70
+    length: 70
     height: 10
     terrains:
       - IDT_MARS
@@ -4505,8 +4505,8 @@ alienDeployments:
             []
           -
             []
-    width: 150
-    length: 150
+    width: 100
+    length: 100
     height: 10
     civiliansByType:
       STR_ALLIED_SOVIET_COSMONAUT: 30
