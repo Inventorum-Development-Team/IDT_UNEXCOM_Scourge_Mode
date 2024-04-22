@@ -2441,8 +2441,8 @@ alienDeployments:
           -
             []
       - alienRank: 5
-        lowQty: 44
-        highQty: 44
+        lowQty: 33
+        highQty: 33
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -2630,8 +2630,8 @@ alienDeployments:
           -
             []
       - alienRank: 5
-        lowQty: 48
-        highQty: 48
+        lowQty: 32
+        highQty: 32
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -2841,8 +2841,8 @@ alienDeployments:
           -
             []
       - alienRank: 5
-        lowQty: 66
-        highQty: 66
+        lowQty: 42
+        highQty: 42
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -3262,11 +3262,11 @@ alienDeployments:
       - FORESTSWAMP
       - RURAL
     civiliansByType: &AmericanTroopers2
-      STR_AMERICAN_RIFLEMAN: 60
-      STR_AMERICAN_ASSAULT: 18
-      STR_AMERICAN_SUPPORT: 18
-      STR_AMERICAN_ELITE: 12
-      STR_PATTON_TANK: 12
+      STR_AMERICAN_RIFLEMAN: 30
+      STR_AMERICAN_ASSAULT: 9
+      STR_AMERICAN_SUPPORT: 9
+      STR_AMERICAN_ELITE: 4
+      STR_PATTON_TANK: 4
     alert: STR_AMERICAN_OPERATIONS_ALERT
     alertBackground: AMERICAN_OPERATIONS_MISSION_ALERT_BACKGROUND
     alertDescription: STR_AMERICAN_OPERATIONS_MISSION_DESCRIPTION
@@ -3303,8 +3303,8 @@ alienDeployments:
           -
             []
       - alienRank: 5
-        lowQty: 64
-        highQty: 64
+        lowQty: 40
+        highQty: 40
         dQty: 0
         percentageOutsideUfo: 70
         itemSets:
@@ -3363,11 +3363,11 @@ alienDeployments:
     height: 10
     terrains: *AlliedOperationTerrains2
     civiliansByType:
-      STR_EUROPEAN_RIFLEMAN: 60
-      STR_EUROPEAN_ASSAULT: 18
-      STR_EUROPEAN_SUPPORT: 18
-      STR_EUROPEAN_ELITE: 12
-      STR_LEOPARD_TANK: 12
+      STR_EUROPEAN_RIFLEMAN: 30
+      STR_EUROPEAN_ASSAULT: 9
+      STR_EUROPEAN_SUPPORT: 9
+      STR_EUROPEAN_ELITE: 4
+      STR_LEOPARD_TANK: 4
     alert: STR_EUROPEAN_OPERATIONS_ALERT
     alertBackground: EUROPEAN_OPERATIONS_MISSION_ALERT_BACKGROUND
     alertDescription: STR_EUROPEAN_OPERATIONS_MISSION_DESCRIPTION
@@ -3385,11 +3385,11 @@ alienDeployments:
     height: 10
     terrains: *AlliedOperationTerrains2
     civiliansByType:
-      STR_SOVIET_RIFLEMAN: 60
-      STR_SOVIET_ASSAULT: 18
-      STR_SOVIET_SUPPORT: 18
-      STR_SOVIET_ELITE: 12
-      STR_T54_TANK: 12
+      STR_SOVIET_RIFLEMAN: 30
+      STR_SOVIET_ASSAULT: 9
+      STR_SOVIET_SUPPORT: 9
+      STR_SOVIET_ELITE: 4
+      STR_T54_TANK: 4
     alert: STR_SOVIET_OPERATIONS_ALERT
     alertBackground: SOVIET_OPERATIONS_MISSION_ALERT_BACKGROUND
     alertDescription: STR_SOVIET_OPERATIONS_MISSION_DESCRIPTION
@@ -3413,23 +3413,23 @@ alienDeployments:
       - INDUSTRIALSLUM
       - COMRCURBAN
     civiliansByType: &AmericanTroopersCityDefense
-      STR_AMERICAN_RIFLEMAN: 60
-      STR_AMERICAN_ASSAULT: 18
-      STR_AMERICAN_SUPPORT: 18
-      STR_AMERICAN_ELITE: 12
-      MALE_CIVILIAN2: 18
-      MALE_CIVILIAN3: 18
-      MALE_CIVILIAN4: 18
-      MALE_CIVILIAN6: 18
-      MALE_CIVILIAN9: 18
-      POLICE_SWAT: 9
+      STR_AMERICAN_RIFLEMAN: 30
+      STR_AMERICAN_ASSAULT: 9
+      STR_AMERICAN_SUPPORT: 9
+      STR_AMERICAN_ELITE: 4
+      MALE_CIVILIAN2: 9
+      MALE_CIVILIAN3: 9
+      MALE_CIVILIAN4: 9
+      MALE_CIVILIAN6: 9
+      MALE_CIVILIAN9: 9
+      POLICE_SWAT: 4
       POLICE_FEMALE_CIVILIAN: 9
       POLICE_MALE_CIVILIAN: 9
-      FEMALE_CIVILIAN2: 18
-      FEMALE_CIVILIAN3: 18
-      FEMALE_CIVILIAN4: 18
-      FEMALE_CIVILIAN7: 18
-      FEMALE_CIVILIAN8: 18
+      FEMALE_CIVILIAN2: 9
+      FEMALE_CIVILIAN3: 9
+      FEMALE_CIVILIAN4: 9
+      FEMALE_CIVILIAN7: 9
+      FEMALE_CIVILIAN8: 9
     alert: STR_AMERICAN_OPERATIONS_ALERT
     alertBackground: TERROR_SITE_ALERT_BACKGROUND
     alertDescription: STR_AMERICAN_CITY_DEFENSE_DESCRIPTION
@@ -3447,23 +3447,23 @@ alienDeployments:
     height: 10
     terrains: *AlliedCityDefenseTerrains2
     civiliansByType: &EuropeanTroopersCityDefense
-      STR_EUROPEAN_RIFLEMAN: 60
-      STR_EUROPEAN_ASSAULT: 18
-      STR_EUROPEAN_SUPPORT: 18
-      STR_EUROPEAN_ELITE: 12
-      MALE_CIVILIAN2: 18
-      MALE_CIVILIAN3: 18
-      MALE_CIVILIAN4: 18
-      MALE_CIVILIAN6: 18
-      STR_HUMAN_SUIT_BLACK_1: 9
-      STR_HUMAN_SUIT_BLACK_2: 9
-      POLICE_FEMALE_CIVILIAN: 9
-      POLICE_MALE_CIVILIAN: 9
-      FEMALE_CIVILIAN2: 18
-      FEMALE_CIVILIAN3: 18
-      FEMALE_CIVILIAN4: 18
-      FEMALE_CIVILIAN10: 18
-      FEMALE_CIVILIAN13: 18
+      STR_EUROPEAN_RIFLEMAN: 30
+      STR_EUROPEAN_ASSAULT: 9
+      STR_EUROPEAN_SUPPORT: 9
+      STR_EUROPEAN_ELITE: 4
+      MALE_CIVILIAN2: 9
+      MALE_CIVILIAN3: 9
+      MALE_CIVILIAN4: 9
+      MALE_CIVILIAN6: 9
+      STR_HUMAN_SUIT_BLACK_1: 4
+      STR_HUMAN_SUIT_BLACK_2: 4
+      POLICE_FEMALE_CIVILIAN: 4
+      POLICE_MALE_CIVILIAN: 4
+      FEMALE_CIVILIAN2: 9
+      FEMALE_CIVILIAN3: 9
+      FEMALE_CIVILIAN4: 9
+      FEMALE_CIVILIAN10: 9
+      FEMALE_CIVILIAN13: 9
     alert: STR_EUROPEAN_OPERATIONS_ALERT
     alertBackground: TERROR_SITE_ALERT_BACKGROUND
     alertDescription: STR_EUROPEAN_CITY_DEFENSE_DESCRIPTION
@@ -3481,23 +3481,23 @@ alienDeployments:
     height: 10
     terrains: *AlliedCityDefenseTerrains2
     civiliansByType: &SovietTroopersCityDefense
-      STR_SOVIET_RIFLEMAN: 60
-      STR_SOVIET_ASSAULT: 18
-      STR_SOVIET_SUPPORT: 18
-      STR_SOVIET_ELITE: 12
-      MALE_CIVILIAN2: 18
-      MALE_CIVILIAN3: 18
-      MALE_CIVILIAN4: 18
-      MALE_CIVILIAN6: 18
-      MALE_CIVILIAN9: 18
-      MALE_CIVILIAN10: 18
-      POLICE_FEMALE_CIVILIAN: 9
-      POLICE_MALE_CIVILIAN: 9
-      FEMALE_CIVILIAN2: 18
-      FEMALE_CIVILIAN3: 18
-      FEMALE_CIVILIAN4: 18
-      FEMALE_CIVILIAN7: 18
-      FEMALE_CIVILIAN8: 18
+      STR_SOVIET_RIFLEMAN: 30
+      STR_SOVIET_ASSAULT: 9
+      STR_SOVIET_SUPPORT: 9
+      STR_SOVIET_ELITE: 4
+      MALE_CIVILIAN2: 9
+      MALE_CIVILIAN3: 9
+      MALE_CIVILIAN4: 9
+      MALE_CIVILIAN6: 9
+      MALE_CIVILIAN9: 9
+      MALE_CIVILIAN10: 9
+      POLICE_FEMALE_CIVILIAN: 4
+      POLICE_MALE_CIVILIAN: 4
+      FEMALE_CIVILIAN2: 9
+      FEMALE_CIVILIAN3: 9
+      FEMALE_CIVILIAN4: 9
+      FEMALE_CIVILIAN7: 9
+      FEMALE_CIVILIAN8: 9
     alert: STR_SOVIET_OPERATIONS_ALERT
     alertBackground: TERROR_SITE_ALERT_BACKGROUND
     alertDescription: STR_SOVIET_CITY_DEFENSE_DESCRIPTION
@@ -3518,8 +3518,8 @@ alienDeployments:
     civiliansByType: &AmericanTankBattalion
       STR_PATTON_TANK: 24
       STR_SHERIDAN_TANK: 18
-      STR_AMERICAN_SUPPORT: 32
-      STR_AMERICAN_ELITE: 12
+      STR_AMERICAN_SUPPORT: 12
+      STR_AMERICAN_ELITE: 4
     alert: STR_AMERICAN_OPERATIONS_ALERT
     alertBackground: AMERICAN_OPERATIONS_MISSION_ALERT_BACKGROUND
     alertDescription: STR_AMERICAN_OPERATIONS_MISSION_DESCRIPTION
@@ -3538,8 +3538,8 @@ alienDeployments:
     race: STR_ALIEN_TANK_BATTALION
     terrains: *AlliedOperationTerrains2
     civiliansByType: &EuropeanTankBattalion
-      STR_EUROPEAN_SUPPORT: 32
-      STR_EUROPEAN_ELITE: 12
+      STR_EUROPEAN_SUPPORT: 12
+      STR_EUROPEAN_ELITE: 4
       STR_SALADIN_CAR: 18
       STR_LEOPARD_TANK: 24
     alert: STR_EUROPEAN_OPERATIONS_ALERT
@@ -3560,8 +3560,8 @@ alienDeployments:
     race: STR_ALIEN_TANK_BATTALION
     terrains: *AlliedOperationTerrains2
     civiliansByType: &SovietTankBattalion
-      STR_SOVIET_SUPPORT: 32
-      STR_SOVIET_ELITE: 12
+      STR_SOVIET_SUPPORT: 12
+      STR_SOVIET_ELITE: 4
       STR_BMP_TANK: 18
       STR_T54_TANK: 24
     alert: STR_SOVIET_OPERATIONS_ALERT
