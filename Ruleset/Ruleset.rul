@@ -708,19 +708,6 @@ items:
 
 alienDeployments:
   - delete: STR_BASE_DEFENSE
-  - delete: STR_SMALL_SCOUT
-  - delete: STR_MEDIUM_SCOUT
-  - delete: STR_LARGE_SCOUT
-  - delete: STR_HARVESTER
-  - delete: STR_ABDUCTOR
-  - delete: STR_TERROR_SHIP
-  - delete: STR_BATTLESHIP
-  - delete: STR_SUPPLY_SHIP
-  - delete: STR_LAB_SHIP
-  - delete: STR_TROOP_LANDER
-  - delete: STR_EXCAVATOR
-  - delete: STR_FIGHTER_SHIP
-  - delete: STR_SENTRY_SHIP
   - delete: STR_TERROR_MISSION
   - delete: STR_TERROR_MISSION_INDUSTRIAL
   - delete: STR_TERROR_MISSION_SNOW
