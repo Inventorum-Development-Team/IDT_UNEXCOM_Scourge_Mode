@@ -5883,6 +5883,236 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
 
+# USA Lasers
+  - name: STR_M1972_LASER_PISTOL
+    requires:
+      - STR_USA_LASER_HANDGUNS
+    space: 1
+    time: 100
+    cost: 30000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_38_LASER_MAGNUM
+    requires:
+      - STR_USA_LASER_HANDGUNS
+    space: 1
+    time: 100
+    cost: 40000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_CALBR
+    requires:
+      - STR_USA_LASER_RIFLES
+    space: 2
+    time: 100
+    cost: 50000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_M20_M203_LASER_CARBINE
+    requires:
+      - STR_USA_LASER_RIFLES
+    space: 2
+    time: 100
+    cost: 45000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_M5_LASER_SMG
+    requires:
+      - STR_USA_LASER_CLOSE_RANGE_WEAPONS
+    space: 2
+    time: 100
+    cost: 40000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ULYSSES_LASER_SNIPER_RIFLE
+    requires:
+      - STR_USA_LASER_HEAVY_WEAPONS
+    space: 2
+    time: 100
+    cost: 65000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+  - name: STR_X4_LASER_SHOTGUN
+    requires:
+      - STR_USA_LASER_CLOSE_RANGE_WEAPONS
+    space: 2
+    time: 100
+    cost: 38000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_M4_LASER_LMG
+    requires:
+      - STR_USA_LASER_HEAVY_WEAPONS
+    space: 2
+    time: 100
+    cost: 50000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+  - name: STR_ELERIUM_FLAMETHROWER
+    requires:
+      - STR_USA_LASER_HEAVY_WEAPONS
+    space: 2
+    time: 100
+    cost: 42000
+    requiredItems:
+      STR_ELERIUM_115: 5
+
+# NATO Lasers
+  - name: STR_P71_LASER_PISTOL
+    requires:
+      - STR_NATO_LASER_HANDGUNS
+    space: 1
+    time: 100
+    cost: 30000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_FN_FLA_LASER_BATTLE_RIFLE
+    requires:
+      - STR_NATO_LASER_RIFLES
+    space: 2
+    time: 100
+    cost: 52000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_FN_FLA_LASER_CARBINE
+    requires:
+      - STR_NATO_LASER_RIFLES
+    space: 2
+    time: 100
+    cost: 50000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_L4_ASSAULT_LASER
+    requires:
+      - STR_NATO_LASER_RIFLES
+    space: 2
+    time: 100
+    cost: 50000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_MAT72_SUBMACHINE_LASER
+    requires:
+      - STR_NATO_LASER_CLOSE_RANGE_WEAPONS
+    space: 2
+    time: 100
+    cost: 30000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_CHURCHILL_MARKSMAN_LASER_RIFLE
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    space: 2
+    time: 100
+    cost: 66000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+  - name: STR_ML73_LASER_MACHINE_GUN
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    space: 2
+    time: 100
+    cost: 65000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+  - name: STR_M72_AUTOMATIC_RECOILLESS_RIFLE
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    space: 2
+    time: 100
+    cost: 36000
+    requiredItems:
+      STR_UFO_NAVIGATION: 1
+  - name: STR_M72_ARR_HEAT_MAG
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    space: 1
+    time: 25
+    cost: 2600
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_M72_ARR_HE_MAG
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    space: 1
+    time: 25
+    cost: 2600
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_M72_ARR_SMOKE_MAG
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    space: 1
+    time: 25
+    cost: 2600
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_M72_ARR_ELERIUM_MAG
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    space: 1
+    time: 25
+    cost: 10000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+
+# USSR Lasers
+  - name: STR_P72_COMPACT_LASER
+    requires:
+      - STR_USSR_LASER_HANDGUNS
+    space: 1
+    time: 100
+    cost: 25000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ALK72_LASER_RIFLE
+    requires:
+      - STR_USSR_LASER_RIFLES
+    space: 1
+    time: 100
+    cost: 48000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_KHARITONOV_LASER_BATTLE_RIFLE
+    requires:
+      - STR_USSR_LASER_RIFLES
+    space: 1
+    time: 100
+    cost: 38000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_ALP_SUBMACHINE_LASER
+    requires:
+      - STR_USSR_LASER_CLOSE_RANGE_WEAPONS
+    space: 1
+    time: 100
+    cost: 27000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_MIRINOV_LASER_SNIPER
+    requires:
+      - STR_USSR_LASER_HEAVY_WEAPONS
+    space: 1
+    time: 100
+    cost: 68000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+  - name: STR_AN_MACHINE_LASER
+    requires:
+      - STR_USSR_LASER_HEAVY_WEAPONS
+    space: 1
+    time: 100
+    cost: 75000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+  - name: STR_AFINA_ANTITANK_LASER
+    requires:
+      - STR_USSR_LASER_HEAVY_WEAPONS
+    space: 1
+    time: 100
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 5
+
 extraSprites:
   - type: MUTUTALLY_ASSURED_DESTRUCTION_BACKGROUND
     singleImage: true
