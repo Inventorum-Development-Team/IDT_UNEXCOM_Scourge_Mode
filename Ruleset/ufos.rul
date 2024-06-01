@@ -1,0 +1,14 @@
+ufos:
+  - type: STR_EXCAVATOR
+    size: STR_MEDIUM
+    damageMax: 270
+    speedMax: 600
+    accel: 6
+    power: 25
+    range: 30
+    score: 100
+    reload: 30
+    shieldCapacity: 200
+    shieldRechargeInGeoscape: 5
+    shieldBleedThrough: 100
+    breakOffTime: 220

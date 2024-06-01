@@ -1,0 +1,17 @@
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      1: Resources/BallisticWeapons/Ammo/AmmoBelt.png
+      2: Resources/BallisticWeapons/Ammo/AmmoBox.png
+
+  - type: FLOOROB.PCK
+    files:
+      1: Resources/BallisticWeapons/Ammo/Floor.png
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      1: Resources/BallisticWeapons/Ammo/Hand.png

@@ -1,0 +1,4 @@
+craftWeapons:
+  - type: STR_FUEL_TANK_UC
+    stats:
+      fuelMax: 50

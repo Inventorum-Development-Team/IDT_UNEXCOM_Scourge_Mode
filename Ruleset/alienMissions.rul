@@ -1,0 +1,66 @@
+alienMissions:
+  - type: STR_UNAVOIDABLE_RETALIATION
+    points: 0
+    objective: 6
+    spawnUfo: STR_MI8_UFO
+    raceWeights:
+      0:
+        STR_TERRORIST: 100
+    ignoreBaseDefenses: true
+    waves:
+      - ufo: STR_MI8_UFO
+        count: 1
+        trajectory: P8
+        timer: 1000
+
+  - type: STR_RESEARCH
+    points: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      12:
+        STR_SECTOID: 100
+        STR_ARMORED_SECTOID: 100
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 5000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 5000
+      - ufo: STR_LARGE_SCOUT
+        count: 2
+        trajectory: P4
+        timer: 5000
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P2
+        timer: 5000
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P4
+        timer: 5000
+
+  - type: STR_HARVEST
+    points: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      12:
+        STR_SECTOID: 100
+        STR_ARMORED_SECTOID: 100
+    waves:
+      - ufo: STR_ABDUCTOR
+        count: 1
+        trajectory: P4
+        timer: 5000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 5000
+      - ufo: STR_HARVESTER
+        count: 2
+        trajectory: P2
+        timer: 5000

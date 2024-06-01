@@ -1,0 +1,173 @@
+armors:
+  - delete: STR_NONE_UC
+  - delete: STR_PILOT_UC
+  - delete: STR_SPECIAL_FORCES_UNIFORM_UC
+  - delete: STR_MERCENARY_UNIFORM_UC
+
+  - type: STR_NONE_UC
+    spriteSheet: XCOM_10.PCK
+    spriteInv: MAN_0wd
+    storeItem: STR_NONE
+    customArmorPreviewIndex: 502
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_UNIFORM
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 10
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.6
+      - 1.1
+      - 1.3
+    units:
+      - STR_SOLDIER
+    personalLight: 6
+  - type: STR_PILOT_UC
+    spriteSheet: PILOT.PCK
+    spriteInv:  MAN_5
+    customArmorPreviewIndex: 543
+    storeItem: STR_NONE
+    isPilotArmor: true
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_PILOT_SUIT
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 2
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      mana: 10
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.6
+      - 1.1
+      - 1.3
+    units:
+      - STR_PILOT
+    personalLight: 6
+  - type: STR_SPECIAL_FORCES_UNIFORM_UC
+    spriteSheet: XCOM_4SF.PCK
+    spriteInv: MAN_4SF
+    customArmorPreviewIndex: 546
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_SPECIAL_FORCES_UNIFORM
+    loftempsSet: [ 3 ]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 2
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 10
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.6
+      - 1.1
+      - 1.3
+    units:
+      - STR_SPECIAL_FORCES_SOLDIER
+    personalLight: 6
+  - type: STR_MERCENARY_UNIFORM_UC
+    spriteSheet: XCOM_4MERC.PCK
+    spriteInv: MAN_4MERC
+    customArmorPreviewIndex: 548
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_MERCENARY_UNIFORM
+    loftempsSet: [ 3 ]
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 2
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 10
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.6
+      - 1.1
+      - 1.3
+    units:
+      - STR_MERCENARY
+    personalLight: 6

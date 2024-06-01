@@ -1,0 +1,24 @@
+research:
+  - name: STR_UN_CUSTOM_WEAPONS
+    cost: 500
+    points: 200
+    dependencies:
+      - STR_ON_OUR_OWN
+    unlocks:
+     - STR_556_X20_UNLOCK
+
+  - name: STR_LASER_WEAPONS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_ALLOY_MANUFACTURING
+      - STR_ALIEN_LASERS
+      - STR_UNITED_WE_STAND_RESEARCH
+
+  - name: STR_UNITED_WE_STAND_RESEARCH
+    cost: 400
+    points: 200
+    dependencies:
+      - STR_ALIEN_ORIGINS
+      - STR_END_OF_TERRORISTS
+    spawnedEvent: STR_WORLD_AT_WAR_EVENT

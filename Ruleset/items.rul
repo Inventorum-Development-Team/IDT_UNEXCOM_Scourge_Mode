@@ -1,0 +1,102 @@
+items:
+  - type: STR_STONER_RIFLE
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56MM_NATO_RIFLE_X20, STR_5_56MM_NATO_RIFLE_X30 ]
+    listOrder: 200941
+  - type: STR_STONER_CARBINE
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56MM_NATO_RIFLE_X20, STR_5_56MM_NATO_RIFLE_X30 ]
+    listOrder: 200942
+  - type: STR_STONER_AUTOMATIC_RIFLE
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56MM_NATO_RIFLE_X20, STR_5_56MM_NATO_RIFLE_X30 ]
+    listOrder: 200943
+  - type: STR_STONER_COMMANDO
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56MM_NATO_RIFLE_X50, STR_5_56MM_NATO_RIFLE_X100 ]
+    listOrder: 200962
+  - type: STR_STONER_SNIPER
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56MM_NATO_RIFLE_X20, STR_5_56MM_NATO_RIFLE_X30 ]
+    listOrder: 200945
+
+  - type: STR_5_56MM_NATO_RIFLE_X50
+    requiresBuy:
+      - STR_UN_CUSTOM_WEAPONS
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS ]
+    power: 32
+    battleType: 2
+    size: 0.1
+    invWidth: 2
+    invHeight: 1
+    costBuy: 550
+    costSell: 525
+    weight: 5
+    bigSprite: 1
+    floorSprite: 1
+    hitAnimation: 26
+    bulletSprite: 2
+    hitSound: 22
+    damageType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.3
+      ToWound: 0.3
+      ToArmor: 0.4
+      RandomWound: false
+    clipSize: 50
+    attraction: 8
+    listOrder: 200963
+  - type: STR_5_56MM_NATO_RIFLE_X100
+    requiresBuy:
+      - STR_UN_CUSTOM_WEAPONS
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS ]
+    power: 32
+    size: 0.1
+    invWidth: 2
+    invHeight: 2
+    costBuy: 800
+    costSell: 755
+    weight: 8
+    bigSprite: 2
+    floorSprite: 1
+    hitAnimation: 26
+    bulletSprite: 2
+    hitSound: 22
+    damageType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.3
+      ToWound: 0.3
+      ToArmor: 0.4
+      RandomWound: false
+    clipSize: 100
+    battleType: 2
+    attraction: 8
+    listOrder: 200964
+
+  - type: STR_FIELD_DRESSING
+    heal: 1
+    woundRecovery: 1
+    healthRecovery: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    costUse:
+      time: 14
+
+  - type: STR_FUSION_POWER_CELL_LIGHT
+    power: 150
+    blastRadius: 3
+  - type: STR_FUSION_POWER_CELL_HEAVY
+    power: 150
+    blastRadius: 3
+  - type: STR_FUSION_POWER_CELL_HUGE
+    power: 150
+    blastRadius: 3

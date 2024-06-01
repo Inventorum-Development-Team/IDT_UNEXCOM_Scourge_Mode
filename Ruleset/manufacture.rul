@@ -1,0 +1,70 @@
+manufacture:
+  - name: STR_FLECHETTE_GRENADE
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_ALLOY_PISTOL_AP
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ALLOY_PISTOL_FL
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ALLOY_RIFLE_AP
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ALLOY_RIFLE_FL
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ALLOY_SHOTGUN_FL
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ALLOY_AUTO_SHOTGUN_FL
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_30MM_AAG
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ALLOY_HEAVY_AP
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ALLOY_HEAVY_FL
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ALLOY_SNIPER_AP
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_ALLOY_SNIPER_FL
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+
+  - name: STR_DISASSEMBLE_FUSION_POWER_CELL_LIGHT
+    requires:
+     - STR_INITIAL_FUSION_CELLS_RESEARCH
+    time: 20
+    space: 1
+    cost: 25000
+    requiredItems:
+      STR_FUSION_POWER_CELL_LIGHT: 1
+    producedItems:
+      STR_ELERIUM_115: 1
+
+  - name: STR_DISASSEMBLE_FUSION_POWER_CELL_HEAVY
+    requires:
+     - STR_INITIAL_FUSION_CELLS_RESEARCH
+    time: 20
+    space: 1
+    cost: 30000
+    requiredItems:
+      STR_FUSION_POWER_CELL_HEAVY: 1
+    producedItems:
+      STR_ELERIUM_115: 2
+
+  - name: STR_DISASSEMBLE_FUSION_POWER_CELL_HUGE
+    requires:
+     - STR_INITIAL_FUSION_CELLS_RESEARCH
+    time: 20
+    space: 1
+    cost: 35000
+    requiredItems:
+      STR_FUSION_POWER_CELL_HUGE: 1
+    producedItems:
+      STR_ELERIUM_115: 3

@@ -1,0 +1,300 @@
+missionScripts:
+  - delete: gameStart
+  - delete: recon
+  - delete: invasion
+  - delete: researchRetaliation
+  - delete: beginnerRetaliation
+  - delete: experiencedRetaliation
+  - delete: veteranRetaliation
+  - delete: geniusRetaliation
+  - delete: superhumanRetaliation
+  - delete: recurringTerror
+  - delete: invasionStart
+  - delete: recurringTerrorNormal
+  - delete: alienResearch
+  - delete: alienConstruction
+  - delete: startingEnemyHumanMissions
+  - delete: startingEnemyHumanMissions2
+  - delete: terroristAttacks
+  - delete: terroristHostageCrisis
+  - delete: terroristHijackedPlane
+
+  - type: unavoidableRetaliation
+    missionWeights:
+      0:
+        STR_UNAVOIDABLE_RETALIATION: 100
+    firstMonth: 0
+    executionOdds: 100
+    targetBaseOdds: 100
+    researchTriggers:
+       STR_TERRORISTS: false
+    startDelay: 20
+    randomDelay: 25000
+  - type: startingEnemyHumanMissions
+    missionWeights:
+      0:
+        STR_HUMAN_RECON: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 20
+        STR_EUROPE: 35
+        STR_CENTRAL_ASIA: 25
+        STR_SOUTH_EAST_ASIA: 20
+    firstMonth: 0
+    useTable: false
+    researchTriggers:
+      STR_TERRORISTS_OPERATIONS: true
+      STR_END_OF_TERRORISTS: false
+    startDelay: 15
+    varName: HumanRecon
+    randomDelay: 25000
+    executionOdds: 100
+  - type: startingEnemyHumanMissions2
+    missionWeights:
+      0:
+        STR_HUMAN_RECON2: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 20
+        STR_EUROPE: 35
+        STR_CENTRAL_ASIA: 25
+        STR_SOUTH_EAST_ASIA: 20
+    useTable: false
+    researchTriggers:
+      STR_TERRORISTS_OPERATIONS: true
+      STR_END_OF_TERRORISTS: false
+    startDelay: 15
+    randomDelay: 25000
+    executionOdds: 100
+  - type: terroristAttacks
+    missionWeights:
+      0:
+        STR_HUMAN_TERROR_ATTACK: 100
+    regionWeights:
+      0:
+        REGION_TERRORIST_ATTACK: 100
+    useTable: false
+    researchTriggers:
+      STR_TERRORISTS_OPERATIONS: true
+      STR_END_OF_TERRORISTS: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+  - type: terroristHostageCrisis
+    missionWeights:
+      0:
+        STR_HOSTAGE_CRISIS: 100
+    regionWeights:
+      0:
+        REGION_TERRORIST_HOSTAGE_CRISIS: 100
+    researchTriggers:
+      STR_TERRORISTS: true
+      STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+  - type: terroristHijackedPlane
+    varName: terroristHijackedPlane
+    missionWeights:
+      0:
+        STR_HIJACKED_PLANE: 100
+    regionWeights:
+      0:
+        REGION_TERRORIST_HIJACKED_PLANE: 100
+    researchTriggers:
+      STR_TERRORISTS: true
+      STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+
+  - type: octResearch
+    missionWeights:
+      0:
+        STR_RESEARCH: 100
+    firstMonth: 0
+    lastMonth: -1
+    executionOdds: 40
+    startDelay: 20
+    randomDelay: 43500
+
+  - type: novHarvest
+    missionWeights:
+      0:
+        STR_HARVEST: 100
+    firstMonth: 1
+    lastMonth: -1
+    executionOdds: 40
+    startDelay: 20
+    randomDelay: 43500
+  - type: decHarvest
+    missionWeights:
+      0:
+        STR_HARVEST: 100
+    firstMonth: 2
+    lastMonth: -1
+    executionOdds: 60
+    startDelay: 20
+    randomDelay: 43500
+
+  - type: janTerror1
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 50
+    firstMonth: 3
+    lastMonth: -1
+    executionOdds: 40
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+  - type: janTerror2
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 50
+    firstMonth: 3
+    lastMonth: -1
+    executionOdds: 40
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+  - type: febTerror1
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 50
+    firstMonth: 4
+    lastMonth: -1
+    executionOdds: 60
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+  - type: febTerror2
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 50
+    firstMonth: 4
+    lastMonth: -1
+    executionOdds: 60
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+  - type: marTerror1
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 50
+    firstMonth: 4
+    lastMonth: -1
+    executionOdds: 75
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+  - type: marTerror2
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 50
+    firstMonth: 4
+    lastMonth: -1
+    executionOdds: 75
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+
+  - type: aprScourge1
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 50
+    firstMonth: 5
+    lastMonth: -1
+    executionOdds: 60
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+  - type: aprScourge2
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 50
+    firstMonth: 5
+    lastMonth: -1
+    executionOdds: 60
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+  - type: mayScourge1
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 50
+    firstMonth: 5
+    lastMonth: -1
+    executionOdds: 75
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+  - type: mayScourge2
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 50
+    firstMonth: 5
+    lastMonth: -1
+    executionOdds: 75
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+  - type: junScourge1
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 50
+    firstMonth: 5
+    lastMonth: -1
+    executionOdds: 85
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+  - type: junScourge2
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 50
+    firstMonth: 5
+    lastMonth: -1
+    executionOdds: 85
+    startDelay: 20
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: false
+    randomDelay: 43500
+
+  - type: AmericanCombatOperations
+    executionOdds: 60
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: true
+  - type: EuropeanCombatOperations
+    executionOdds: 60
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: true
+  - type: SovietCombatOperations
+    executionOdds: 60
+    researchTriggers:
+       STR_UNITED_WE_STAND_RESEARCH: true
+
+  - type: AmericanCityDefense
+    researchTriggers:
+      STR_UNITED_WE_STAND_RESEARCH: true
+    executionOdds: 40
+  - type: EuropeanCityDefense
+    researchTriggers:
+      STR_UNITED_WE_STAND_RESEARCH: true
+    executionOdds: 40
+  - type: SovietCityDefense
+    researchTriggers:
+      STR_UNITED_WE_STAND_RESEARCH: true
+    executionOdds: 40
