@@ -2427,7 +2427,9 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            []
+            - STR_AKM
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
           -
             []
           -
@@ -2441,7 +2443,9 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            []
+            - STR_AKM
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
           -
             []
           -
@@ -2449,11 +2453,15 @@ alienDeployments:
           -
             []
       - alienRank: 5
-        lowQty: 48
-        highQty: 48
+        lowQty: 32
+        highQty: 32
         dQty: 0
         percentageOutsideUfo: 90
         itemSets:
+          -
+            - STR_AKM
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
           -
             - STR_ALIEN_LASER_RIFLE
             - STR_ALIEN_LASER_RIFLE_BATTERY
@@ -2476,17 +2484,9 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_SNIPER_RIFLE
-            - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_FUSION_SNIPER
-            - STR_FUSION_POWER_CELL_HEAVY
-            - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
-            - STR_ALIEN_GRENADE
+            - STR_AKM
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
           -
             - STR_ALIEN_HEAVY_LASER
             - STR_ALIEN_HEAVY_LASER_BATTERY
@@ -2509,6 +2509,10 @@ alienDeployments:
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_GRENADE
           -
             - STR_ETHEREAL_NOBLE_SWORD
             - STR_MIND_PROBE
