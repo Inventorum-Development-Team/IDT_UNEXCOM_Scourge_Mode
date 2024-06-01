@@ -2416,8 +2416,7 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     isHidden: true
 
-# Base Defense
-  - type: STR_BASE_DEFENSE
+# Base Defense  - type: STR_BASE_DEFENSE
     startingCondition: STR_INDOORS
     data:
       - alienRank: 7
@@ -2427,8 +2426,9 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_AKM
-            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_M16A1
+            - STR_5_56MM_NATO_RIFLE_X20
+            - STR_GRENADE
             - STR_GRENADE
           -
             []
@@ -2443,8 +2443,9 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_AKM
-            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_M16A1
+            - STR_5_56MM_NATO_RIFLE_X20
+            - STR_GRENADE
             - STR_GRENADE
           -
             []
@@ -2461,7 +2462,7 @@ alienDeployments:
           -
             - STR_AKM
             - STR_7_62MM_SOVIET_RIFLE_X30
-            - STR_GRENADE
+            - STR_COMBAT_KNIFE
           -
             - STR_ALIEN_LASER_RIFLE
             - STR_ALIEN_LASER_RIFLE_BATTERY
@@ -2484,8 +2485,9 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_AKM
-            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_ENFORCER
+            - STR_30_CARBINE_X15
+            - STR_GRENADE
             - STR_GRENADE
           -
             - STR_ALIEN_HEAVY_LASER
