@@ -2416,7 +2416,8 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     isHidden: true
 
-# Base Defense  - type: STR_BASE_DEFENSE
+# Base Defense
+- type: STR_BASE_DEFENSE
     startingCondition: STR_INDOORS
     data:
       - alienRank: 7
