@@ -9,7 +9,7 @@ soldiers:
       firing: 55
       throwing: 45
       strength: 25
-      psiStrength: 0
+      psiStrength: 20
       psiSkill: 0
       melee: 45
     maxStats:
@@ -48,7 +48,7 @@ soldiers:
       firing: 70
       throwing: 60
       strength: 35
-      psiStrength: 0
+      psiStrength: 80
       psiSkill: 0
       melee: 80
     femaleFrequency: 1
@@ -75,7 +75,7 @@ soldiers:
       firing: 65
       throwing: 60
       strength: 35
-      psiStrength: 0
+      psiStrength: 80
       psiSkill: 0
       melee: 90
     allowPiloting: false
@@ -91,7 +91,7 @@ soldiers:
       firing: 65
       throwing: 45
       strength: 20
-      psiStrength: 0
+      psiStrength: 20
       psiSkill: 0
       melee: 35
     maxStats:
