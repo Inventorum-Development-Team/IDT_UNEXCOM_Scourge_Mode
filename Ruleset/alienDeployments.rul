@@ -2417,7 +2417,7 @@ alienDeployments:
     isHidden: true
 
 # Base Defense
-- type: STR_BASE_DEFENSE
+  - type: STR_BASE_DEFENSE
     startingCondition: STR_INDOORS
     data:
       - alienRank: 7
