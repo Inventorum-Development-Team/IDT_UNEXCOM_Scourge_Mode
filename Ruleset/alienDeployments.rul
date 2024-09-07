@@ -2306,7 +2306,7 @@ alienDeployments:
       - alienRank: 7
         lowQty: 32
         highQty: 32
-        customUnitType: STR_ZOMBIE
+        customUnitType: STR_ZOMBIE_UNDEAD
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -2319,8 +2319,8 @@ alienDeployments:
           -
             []
       - alienRank: 6
-        lowQty: 32
-        highQty: 32
+        lowQty: 16
+        highQty: 16
         customUnitType: STR_CHRYSSALID_TERRORIST
         dQty: 0
         percentageOutsideUfo: 0
