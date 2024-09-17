@@ -68,3 +68,12 @@ manufacture:
       STR_FUSION_POWER_CELL_HUGE: 1
     producedItems:
       STR_ELERIUM_115: 3
+
+  - name: STR_STONER_AUTOMATIC_RIFLE_CONVERSION
+    cost: 600
+  - name: STR_STONER_CARBINE_CONVERSION
+    cost: 200
+  - name: STR_STONER_COMMANDO_CONVERSION
+    cost: 5000
+  - name: STR_STONER_SNIPER_CONVERSION
+    cost: 300

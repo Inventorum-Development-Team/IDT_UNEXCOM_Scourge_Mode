@@ -29,7 +29,9 @@ missionScripts:
     researchTriggers:
        STR_TERRORISTS: false
     startDelay: 20
+    maxRuns: 2
     randomDelay: 25000
+    varName: unavoidableRetaliation
   - type: startingEnemyHumanMissions
     missionWeights:
       0:

@@ -2,52 +2,52 @@ soldiers:
   - type: STR_SOLDIER
     minStats:
       tu: 50
-      stamina: 50
+      stamina: 40
       health: 30
       bravery: 20
-      reactions: 40
-      firing: 55
-      throwing: 45
-      strength: 25
+      reactions: 30
+      firing: 50
+      throwing: 40
+      strength: 20
       psiStrength: 20
       psiSkill: 0
-      melee: 45
+      melee: 30
     maxStats:
       tu: 50
-      stamina: 50
+      stamina: 60
       health: 30
       bravery: 50
       reactions: 40
-      firing: 55
-      throwing: 45
-      strength: 25
+      firing: 60
+      throwing: 50
+      strength: 30
       psiStrength: 100
       psiSkill: 16
-      melee: 45
+      melee: 50
     femaleFrequency: 10
 
   - type: STR_SPECIAL_FORCES_SOLDIER
     minStats:
       tu: 60
-      stamina: 65
+      stamina: 60
       health: 40
-      bravery: 60
-      reactions: 50
-      firing: 70
-      throwing: 60
-      strength: 35
+      bravery: 50
+      reactions: 40
+      firing: 60
+      throwing: 50
+      strength: 30
       psiStrength: 0
       psiSkill: 0
-      melee: 80
+      melee: 50
     maxStats:
       tu: 60
-      stamina: 65
+      stamina: 70
       health: 40
       bravery: 60
       reactions: 50
       firing: 70
-      throwing: 60
-      strength: 35
+      throwing: 70
+      strength: 40
       psiStrength: 80
       psiSkill: 0
       melee: 80
@@ -56,25 +56,25 @@ soldiers:
   - type: STR_MERCENARY
     minStats:
       tu: 65
-      stamina: 75
+      stamina: 70
       health: 40
-      bravery: 80
+      bravery: 60
       reactions: 40
       firing: 65
       throwing: 60
       strength: 35
       psiStrength: 0
       psiSkill: 0
-      melee: 90
+      melee: 70
     maxStats:
       tu: 65
-      stamina: 75
+      stamina: 80
       health: 40
       bravery: 80
       reactions: 40
-      firing: 65
-      throwing: 60
-      strength: 35
+      firing: 70
+      throwing: 70
+      strength: 40
       psiStrength: 80
       psiSkill: 0
       melee: 90
@@ -84,26 +84,26 @@ soldiers:
   - type: STR_PILOT
     minStats:
       tu: 50
-      stamina: 40
+      stamina: 30
       health: 30
       bravery: 30
-      reactions: 60
-      firing: 65
-      throwing: 45
+      reactions: 50
+      firing: 60
+      throwing: 30
       strength: 20
       psiStrength: 20
       psiSkill: 0
-      melee: 35
+      melee: 30
     maxStats:
       tu: 50
-      stamina: 40
+      stamina: 50
       health: 30
       bravery: 60
-      reactions: 60
-      firing: 65
-      throwing: 45
+      reactions: 70
+      firing: 70
+      throwing: 40
       strength: 20
       psiStrength: 100
       psiSkill: 16
-      melee: 35
+      melee: 40
     femaleFrequency: 20
