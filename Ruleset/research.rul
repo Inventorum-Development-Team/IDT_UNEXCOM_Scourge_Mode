@@ -22,3 +22,12 @@ research:
       - STR_ALIEN_ORIGINS
       - STR_END_OF_TERRORISTS
     spawnedEvent: STR_WORLD_AT_WAR_EVENT
+
+  - name: STR_IMP_TANK_CHASSIS
+    dependencies:
+      - STR_ALLOY_MANUFACTURING
+      - STR_UNITED_WE_STAND_RESEARCH
+  - name: STR_TANK_LASER_CANNON
+    dependencies:
+      - STR_LASER_CANNON
+      - STR_IMP_TANK_CHASSIS
