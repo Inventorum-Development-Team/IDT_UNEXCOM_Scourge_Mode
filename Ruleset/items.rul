@@ -100,3 +100,112 @@ items:
   - type: STR_FUSION_POWER_CELL_HUGE
     power: 150
     blastRadius: 3
+
+  - type: STR_ALIEN_LASER_PISTOL
+    costSell: 16000
+  - type: STR_ALIEN_LASER_RIFLE
+    costSell: 31050
+  - type: STR_ALIEN_HEAVY_LASER
+    costSell: 52400
+  - type: STR_SMALL_LAUNCHER
+    costSell: 64000
+  - type: STR_STUN_BOMB
+    costSell: 15200
+  - type: STR_ACID_BOMB
+    costSell: 16500
+  - type: STR_ELERIUM_BOMB
+    costSell: 13000
+  - type: STR_TOXIGUN
+    costSell: 54000
+  - type: STR_TOXIGUN_FLASK
+    costSell: 9000
+  - type: STR_PLASMA_CASTER
+    costSell: 37400
+  - type: STR_PLASMA_CASTER_CLIP
+    costSell: 2400
+  - type: STR_PLASMA_SNIPER_RIFLE
+    costSell: 65000
+  - type: STR_PLASMA_SNIPER_RIFLE_CLIP
+    costSell: 5400
+  - type: STR_PLASMA_BLASTER
+    costSell: 116000
+  - type: STR_PLASMA_BLASTER_CLIP
+    costSell: 12520
+  - type: STR_MIND_PROBE
+    costSell: 134000
+
+  - type: STR_M1972_LASER_PISTOL
+    costBuy: 150000
+    costSell: 100000
+  - type: STR_38_LASER_MAGNUM
+    costBuy: 200000
+    costSell: 150000
+  - type: STR_CALBR
+    costBuy: 250000
+    costSell: 200000
+  - type: STR_M20_M203_LASER_CARBINE
+    costBuy: 225000
+    costSell: 200000
+  - type: STR_M5_LASER_SMG
+    costBuy: 200000
+    costSell: 160000
+  - type: STR_ULYSSES_LASER_SNIPER_RIFLE
+    costBuy: 190000
+    costSell: 160000
+  - type: STR_X4_LASER_SHOTGUN
+    costBuy: 400000
+    costSell: 250000
+  - type: STR_M4_LASER_LMG
+    costBuy: 210000
+    costSell: 165000
+  - type: STR_ELERIUM_FLAMETHROWER
+    costBuy: 250000
+    costSell: 150000
+  - type: STR_P71_LASER_PISTOL
+    costBuy: 150000
+    costSell: 100000
+  - type: STR_FN_FLA_LASER_BATTLE_RIFLE
+    costBuy: 260000
+    costSell: 220000
+  - type: STR_FN_FLA_LASER_CARBINE
+    costBuy: 250000
+    costSell: 224000
+  - type: STR_L4_ASSAULT_LASER
+    costBuy: 250000
+    costSell: 200000
+  - type: STR_MAT72_SUBMACHINE_LASER
+    costBuy: 150000
+    costSell: 110000
+  - type: STR_CHURCHILL_MARKSMAN_LASER_RIFLE
+    costBuy: 330000
+    costSell: 280000
+  - type: STR_ML73_LASER_MACHINE_GUN
+    costBuy: 425000
+    costSell: 270000
+  - type: STR_M72_AUTOMATIC_RECOILLESS_RIFLE
+    costBuy: 180000
+    costSell: 150000
+  - type: STR_P72_COMPACT_LASER
+    costBuy: 150000
+    costSell: 100000
+  - type: STR_ALK72_LASER_RIFLE
+    costBuy: 240000
+    costSell: 210000
+  - type: STR_KHARITONOV_LASER_BATTLE_RIFLE
+    costBuy: 180000
+    costSell: 160000
+  - type: STR_ALP_SUBMACHINE_LASER
+    costBuy: 160000
+    costSell: 130000
+  - type: STR_MIRINOV_LASER_SNIPER
+    costBuy: 340000
+    costSell: 300000
+  - type: STR_AN_MACHINE_LASER
+    costBuy: 385000
+    costSell: 290000
+  - type: STR_AFINA_ANTITANK_LASER
+    costBuy: 400000
+    costSell: 350000
+
+  - type: STR_BATTERY
+    costBuy: 50000

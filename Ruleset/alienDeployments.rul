@@ -4061,16 +4061,6 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_FUSION_HANDGUN
-            - STR_FUSION_POWER_CELL_LIGHT
-            - STR_FUSION_POWER_CELL_LIGHT
-            - STR_ALIEN_GRENADE
-          -
-            - STR_FUSION_HANDGUN
-            - STR_FUSION_POWER_CELL_LIGHT
-            - STR_FUSION_POWER_CELL_LIGHT
-            - STR_ALIEN_GRENADE
-          -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY

@@ -1,4 +1,35 @@
 manufacture:
+  - name: STR_FLECHETTE_PISTOL
+    requiredItems:
+      STR_ALIEN_ALLOYS: 6
+    time: 500
+  - name: STR_FLECHETTE_RIFLE
+    requiredItems:
+      STR_ALIEN_ALLOYS: 10
+    time: 600
+  - name: STR_FLECHETTE_CARBINE
+    requiredItems:
+      STR_ALIEN_ALLOYS: 10
+  - name: STR_FLECHETTE_SHOTGUN
+    requiredItems:
+      STR_ALIEN_ALLOYS: 10
+    time: 600
+  - name: STR_FLECHETTE_AUTO_SHOTGUN
+    requiredItems:
+      STR_ALIEN_ALLOYS: 14
+    time: 700
+  - name: STR_FLECHETTE_SNIPER
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+    time: 600
+  - name: STR_FLECHETTE_CANNON
+    requiredItems:
+      STR_ALIEN_ALLOYS: 15
+  - name: STR_FLECHETTE_GL
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+    time: 900
+
   - name: STR_FLECHETTE_GRENADE
     requiredItems:
       STR_ALIEN_ALLOYS: 3
