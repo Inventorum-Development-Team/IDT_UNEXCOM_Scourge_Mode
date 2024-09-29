@@ -10,3 +10,7 @@ v0.2
 *Laser Weapons cost x4-5 more (might be too harsh)
 
 *Space Missions aliens spawn with all Fusion weapons (might be too harsh again)
+
+*Psi is LoS
+
+*Alloy weapon armor damage nerf
