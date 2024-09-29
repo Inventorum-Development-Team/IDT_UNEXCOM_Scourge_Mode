@@ -6,6 +6,103 @@ items:
   - type: ALIEN_PSI_WEAPON
     LOSRequired: true
 
+  - type: STR_ALLOY_RIFLE_AP
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.0
+      ArmorEffectiveness: 0.5
+      ToWound: 0.3
+      RandomWound: false
+  - type: STR_ALLOY_RIFLE_FL
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ArmorEffectiveness: 1.5
+      ToArmor: 0.0
+      ToHealth: 1.2
+      ToWound: 0.2
+      RandomWound: false
+  - type: STR_ALLOY_PISTOL_AP
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.0
+      ArmorEffectiveness: 0.5
+      ToWound: 0.3
+      RandomWound: false
+  - type: STR_ALLOY_PISTOL_FL
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ArmorEffectiveness: 1.5
+      ToArmor: 0.0
+      ToHealth: 1.2
+      ToWound: 0.2
+      RandomWound: false
+  - type: STR_ALLOY_AUTO_SHOTGUN_FL
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ArmorEffectiveness: 1.5
+      ToArmor: 0.0
+      ToHealth: 1.2
+      ToWound: 0.8
+      RandomWound: false
+  - type: STR_ALLOY_SHOTGUN_FL
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ArmorEffectiveness: 1.5
+      ToArmor: 0.0
+      ToHealth: 1.2
+      ToWound: 0.8
+      RandomWound: false
+  - type: STR_30MM_AAG
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ArmorEffectiveness: 1.5
+      ToHealth: 1.3
+      ToWound: 0.7
+      RandomWound: true
+      FixRadius: 3
+  - type: STR_ALLOY_HEAVY_AP
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.0
+      ArmorEffectiveness: 0.6
+      ToWound: 0.3
+      RandomWound: false
+  - type: STR_ALLOY_HEAVY_FL
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ArmorEffectiveness: 1.5
+      ToArmor: 0.0
+      ToHealth: 1.2
+      ToWound: 0.8
+      RandomWound: false
+  - type: STR_ALLOY_SNIPER_AP
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.0
+      ArmorEffectiveness: 0.4
+      ToWound: 0.3
+      RandomWound: false
+  - type: STR_ALLOY_SNIPER_FL
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ArmorEffectiveness: 1.5
+      ToArmor: 0.0
+      ToHealth: 1.2
+      ToWound: 0.8
+      RandomWound: false
+
   - type: STR_STONER_RIFLE
     ammo:
       0:

@@ -3969,8 +3969,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
       - alienRank: 0
         customUnitType: STR_ARMORED_MUTON_LEADER
-        lowQty: 22
-        highQty: 22
+        lowQty: 16
+        highQty: 16
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
@@ -3981,8 +3981,8 @@ alienDeployments:
     width: 80
     length: 80
     civiliansByType:
-      STR_ALLIED_SOVIET_COSMONAUT: 15
-      STR_ALLIED_AMERICAN_ASTRONAUT: 15
+      STR_ALLIED_SOVIET_COSMONAUT: 5
+      STR_ALLIED_AMERICAN_ASTRONAUT: 5
     terrains:
       - UBASE_MARS
     shade: 5
