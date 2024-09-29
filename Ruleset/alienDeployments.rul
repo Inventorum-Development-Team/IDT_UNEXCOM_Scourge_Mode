@@ -3608,27 +3608,17 @@ alienDeployments:
   - type: STR_OPERATION_DEVASTATION
     startingCondition: STR_MOON_CONDITION
     race: STR_ARMORED_SECTOID
-    data: &AlienSpaceBaseDefenders2
+    data:
       - alienRank: 5
-        lowQty: 64
-        highQty: 64
+        lowQty: 30
+        highQty: 30
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-          -
-            - STR_FUSION_RIFLE
-            - STR_FUSION_POWER_CELL_HEAVY
-            - STR_FUSION_POWER_CELL_HEAVY
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 6
@@ -3640,29 +3630,12 @@ alienDeployments:
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-          -
-            - STR_FUSION_SMG
-            - STR_FUSION_POWER_CELL_LIGHT
-            - STR_FUSION_POWER_CELL_LIGHT
-          -
-            - STR_FUSION_SPLITTER
-            - STR_FUSION_POWER_CELL_HUGE
-            - STR_FUSION_POWER_CELL_HUGE
       - alienRank: 3
         lowQty: 6
         highQty: 6
         dQty: 0
         percentageOutsideUfo: 20
         itemSets:
-          -
-            - STR_TOXIGUN
-            - STR_TOXIGUN_FLASK
-            - STR_TOXIGUN_FLASK
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
           -
             - STR_SMALL_LAUNCHER
             - STR_ACID_BOMB
@@ -3675,22 +3648,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_SMALL_LAUNCHER
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-          -
             - STR_PLASMA_BLASTER
             - STR_PLASMA_BLASTER_CLIP
             - STR_PLASMA_BLASTER_CLIP
-          -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
-          -
-            - STR_THERMONUCLEAR_PROJECTILE_LAUNCHER
-            - STR_THERMONUCLEAR_PROJECTILE_LAUNCHER_MAGAZINE
       - alienRank: 1
         lowQty: 3
         highQty: 3
@@ -3698,31 +3658,8 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_SNIPER_RIFLE
-            - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
-            - STR_ALIEN_GRENADE
-          -
             - STR_FUSION_SNIPER
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_ALIEN_HEAVY_LASER
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_MIND_PROBE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_MIND_PROBE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_FUSION_LANCE
             - STR_MIND_PROBE
             - STR_ALIEN_GRENADE
       - alienRank: 0
@@ -3737,8 +3674,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 6
-        lowQty: 8
-        highQty: 8
+        lowQty: 4
+        highQty: 4
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
@@ -3751,8 +3688,8 @@ alienDeployments:
           -
             []
       - alienRank: 7
-        lowQty: 8
-        highQty: 8
+        lowQty: 4
+        highQty: 4
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
@@ -3790,14 +3727,106 @@ alienDeployments:
 
 # Operation Downfall
   - type: STR_MARS_CYDONIA_LANDING
-    data: *AlienSpaceBaseDefenders2
     width: 70
     length: 70
     height: 10
     terrains:
       - IDT_MARS
-    shade: 10
+    shade: 0
     race: STR_ARMORED_SECTOID
+    data:
+      - alienRank: 5
+        lowQty: 64
+        highQty: 64
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 10
+        highQty: 10
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_CASTER
+            - STR_PLASMA_CASTER_CLIP
+            - STR_PLASMA_CASTER_CLIP
+      - alienRank: 3
+        lowQty: 10
+        highQty: 10
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ACID_BOMB
+            - STR_ACID_BOMB
+            - STR_ACID_BOMB
+      - alienRank: 2
+        lowQty: 10
+        highQty: 10
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_BLASTER
+            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_BLASTER_CLIP
+      - alienRank: 1
+        lowQty: 4
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_FUSION_SNIPER
+            - STR_FUSION_POWER_CELL_HEAVY
+            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
+      - alienRank: 0
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ETHEREAL_NOBLE_SWORD
+            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 6
+        lowQty: 5
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 5
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
     nextStage: STR_MARS_CYDONIA_CITY
     finalDestination: true
     loseCutscene: loseGame
@@ -3811,126 +3840,60 @@ alienDeployments:
       showTarget: false
       showCraft: false
   - type: STR_MARS_CYDONIA_CITY
-    data: &AlienSpaceBaseDefenders3
+    data:
       - alienRank: 5
-        lowQty: 64
-        highQty: 64
+        lowQty: 48
+        highQty: 48
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
-          -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_ALIEN_GRENADE
       - alienRank: 4
-        lowQty: 12
-        highQty: 12
+        lowQty: 6
+        highQty: 6
         dQty: 0
         percentageOutsideUfo: 20
         itemSets:
-          -
-            - STR_PLASMA_CASTER
-            - STR_PLASMA_CASTER_CLIP
-            - STR_PLASMA_CASTER_CLIP
-          -
-            - STR_FUSION_SMG
-            - STR_FUSION_POWER_CELL_LIGHT
-            - STR_FUSION_POWER_CELL_LIGHT
           -
             - STR_FUSION_SPLITTER
             - STR_FUSION_POWER_CELL_HUGE
             - STR_FUSION_POWER_CELL_HUGE
       - alienRank: 3
-        lowQty: 12
-        highQty: 12
+        lowQty: 6
+        highQty: 6
         dQty: 0
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_TOXIGUN
-            - STR_TOXIGUN_FLASK
-            - STR_TOXIGUN_FLASK
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_ACID_BOMB
-            - STR_ACID_BOMB
-            - STR_ACID_BOMB
+            - STR_FUSION_SMG
+            - STR_FUSION_POWER_CELL_LIGHT
+            - STR_FUSION_POWER_CELL_LIGHT
       - alienRank: 2
-        lowQty: 12
-        highQty: 12
+        lowQty: 6
+        highQty: 6
         dQty: 0
         percentageOutsideUfo: 20
         itemSets:
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-          -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
-          -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
           -
             - STR_THERMONUCLEAR_PROJECTILE_LAUNCHER
             - STR_THERMONUCLEAR_PROJECTILE_LAUNCHER_MAGAZINE
       - alienRank: 1
-        lowQty: 5
-        highQty: 5
+        lowQty: 3
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_PLASMA_SNIPER_RIFLE
-            - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_FUSION_SNIPER
-            - STR_FUSION_POWER_CELL_HEAVY
-            - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_ALIEN_HEAVY_LASER
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_MIND_PROBE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_MIND_PROBE
-            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_LANCE
             - STR_MIND_PROBE
             - STR_ALIEN_GRENADE
       - alienRank: 0
-        lowQty: 3
-        highQty: 3
+        lowQty: 1
+        highQty: 1
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -3940,8 +3903,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 6
-        lowQty: 20
-        highQty: 20
+        lowQty: 5
+        highQty: 5
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
@@ -3954,8 +3917,8 @@ alienDeployments:
           -
             []
       - alienRank: 7
-        lowQty: 20
-        highQty: 20
+        lowQty: 5
+        highQty: 5
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
@@ -3971,11 +3934,11 @@ alienDeployments:
     length: 100
     height: 10
     civiliansByType:
-      STR_ALLIED_SOVIET_COSMONAUT: 30
-      STR_ALLIED_AMERICAN_ASTRONAUT: 30
+      STR_ALLIED_SOVIET_COSMONAUT: 15
+      STR_ALLIED_AMERICAN_ASTRONAUT: 15
     terrains:
       - MARS
-    shade: 8
+    shade: 5
     race: STR_ARMORED_SECTOID
     nextStage: STR_MARS_THE_FINAL_ASSAULT
     finalDestination: true
@@ -4006,8 +3969,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
       - alienRank: 0
         customUnitType: STR_ARMORED_MUTON_LEADER
-        lowQty: 18
-        highQty: 18
+        lowQty: 22
+        highQty: 22
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
@@ -4018,8 +3981,8 @@ alienDeployments:
     width: 80
     length: 80
     civiliansByType:
-      STR_ALLIED_SOVIET_COSMONAUT: 30
-      STR_ALLIED_AMERICAN_ASTRONAUT: 30
+      STR_ALLIED_SOVIET_COSMONAUT: 15
+      STR_ALLIED_AMERICAN_ASTRONAUT: 15
     terrains:
       - UBASE_MARS
     shade: 5
