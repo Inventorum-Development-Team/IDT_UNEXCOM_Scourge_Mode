@@ -6,7 +6,6 @@ crafts:
     spacecraft: true
     costBuy: 2100000
     costSell: 700000
-    sprite: 945
     fuelMax: 2200
     damageMax: 700
     speedMax: 1250
