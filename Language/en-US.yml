@@ -4,17 +4,17 @@ en-US:
 
       STR_STONER_RIFLE_UFOPEDIA: "Modified version of the modular rifle created by Eugene Stoner, it fires {ALT}5.56x45mm NATO{ALT} caliber ammunition as it is the most accessible to our arsenal. A bit heavy for an assault rifle, but undoubtedly effective. All the versions of this weapon system employed by us {ALT}fire the same cartridge.{ALT}"
 
-      STR_TERRORISTS_UFOPEDIA: "We have finally discovered who the men breaking into our bases belong to. These terrorists are a diverse group of political, religious and ideological radicals who use violence and fear to impose their ideals or make demands on the world's governments. Each cell is independent of the others, but they use similar equipment and weaponry. We've finally tightened up our security procedures, but now the Security Council has tasked us with investigating thier connection with the aliens further."
+      STR_TERRORISTS_UFOPEDIA: "We have finally discovered who the people responsible for breaking into our bases are. These terrorists are a diverse group of political, religious and ideological radicals who use violence and fear to impose their ideals or make demands on the world's governments. Each cell is independent of the others, but they use similar equipment and weaponry. We've finally tightened up our security procedures, but now the Security Council has tasked us with investigating thier connection with the aliens further."
 
       STR_5_56MM_NATO_RIFLE_X50: "5.56mm NATO Rifle Rounds (x50)"
       STR_5_56MM_NATO_RIFLE_X100: "5.56mm NATO Rifle Rounds (x100)"
 
       STR_FUEL_TANK_UFOPEDIA: "Extra fuel tank, carried under wing. Add 50 extra fuel units, which means additional 130 nautical miles or 250 km, with the disadvantage that it makes the aircraft slower (accel -1) and less agile (avoid bonus -5)."
 
-      STR_GOOD_ENDING_1: "The Alien Brain, the supercomputer commanding the invasion of our planet, is killed during the UNEXCOM-led joint assault of Astronauts and Cosmonauts. After confirming its destruction, the entire planet of Mars is bombarded with nuclear strikes from the Orion battle fleet. It was the only way to be sure."
+      STR_GOOD_ENDING_1: "The Alien Brain is killed during the UNEXCOM-led joint assault of Astronauts and Cosmonauts. After confirming its destruction, the entire planet of Mars is bombarded with nuclear strikes from the Orion battle fleet. It was the only way to be sure."
       STR_GOOD_ENDING_2: "Weeks later, the radiation has cleared enough for orbital probes to confirm the obvious. Nothing living remains on the Red Planet. A precendent of sanctioned atomic genocide on a monumentally catostrophic scale has been set."
-      STR_GOOD_ENDING_3: "Contested colonization claims between the only exacerbates tensions. The global unity during the Scourge of '72 has been forgotten as politicians bicker over acres of barren, irradiated regolith. Eventually, the inevitable happens. A nuclear exchange annihilates the Northern Hemisphere, and the rest of the world is swathed in radioactive fallout, devastating the ecosystem."
-      STR_GOOD_ENDING_4: "Forty years later, human civilization is has managed to recover thanks to advanced alien technology. The world powers that control the remaning habitable lands continue to lock horns, having learned nothing. That is, until a new threat emerges from the depths. An ancient enemy that has lain in wait for millenia. Humanity has found itself in need of defenders once more..."
+      STR_GOOD_ENDING_3: "Contested Martian colonization claims between the World Powers only exacerbates tensions. Politicians bicker over acres of barren, irradiated regolith. Eventually, the inevitable happens. A nuclear exchange annihilates the Northern Hemisphere."
+      STR_GOOD_ENDING_4: "Forty years later, human civilization is beginning to recover what once was thanks to advanced alien technology. But a new threat has emerged from our own oceans, an ancient enemy that has lain in wait for millenia. Humanity has found itself in need of defenders once more..."
 
       STR_OPERATION_LINEBACKER_EVENT: "Operation Linebacker deemed failure"
       STR_OPERATION_LINEBACKER_EVENT_DESCRIPTION: "Months of sustained bombing by US forces against NVA forces have failed to stall the so-called Easter Offensive due in part to unexplained disappearences, malfunctions, and erratic weather. Pentagon officials deny claims of internal sabotage but fail to provide an alternative answer."
@@ -34,3 +34,6 @@ en-US:
       STR_COUNTRY_REFUSES_TO_COMMENT_ON_ALIEN_THREAT_EVENT_DESCRIPTION: "During a press release in the city of {0}, a government official was asked by one of the reporters to comment on the presence of extraterrestrial life on earth. He was immediatley rejected and was forcibly escorted out of the room after a violent altercation with security. The world is paying no heed to farcicle as it inches closer to mutually assured destruction."
       STR_GERMAN_COOPERATION_EVENT: "Skirmish on the Iron Curtain"
       STR_GERMAN_COOPERATION_EVENT_DESCRIPTION: "Troops posted on the border between East and West Germany reported a short aerial bombardment by an unknown weapon. Believing the other side responsible, they opened fire on each other. Forces from NATO and Warsaw Pact were mobilized to support each side before the situation was cleared up. World War 3 was narrowly avoided."
+
+      STR_SANTA_MARIA: "SANTA MARIA"
+      STR_VENTURESTARWIKI: "Named after the eponymous flagship of Columbus, the Santa Maria is a heavy transport spacecraft. While it is *not* capable of orbital boarding, it can be used to land troops on celestial bodies such as the Moon or Mars."

@@ -1,16 +1,13 @@
-v0.2
+@here UNEXCOM: Scourge Mode update is out!
+
+``v0.2
 9/26/24
 
 *Alien weapons sell for half
-
 *Mechtoids spawn less on Tank missions
-
 *Alloy Weapons cost x2 Alloys and x2 Time (might not be harsh enough)
-
-*Laser Weapons cost x4-5 more (might be too harsh)
-
+*Laser Weapons cost x4 more (might be too harsh)
 *Space Missions aliens spawn with all Fusion weapons (might be too harsh again)
-
 *Psi is LoS
-
 *Alloy weapon armor damage nerf
+*Added Santa Maria craft (VENTURESTAR used as a base)``

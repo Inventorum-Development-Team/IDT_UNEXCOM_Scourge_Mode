@@ -1,0 +1,89 @@
+crafts:
+  - type: STR_SANTA_MARIA
+    requires:
+      - STR_THE_MARTIAN_SOLUTION
+    allowLanding: true
+    spacecraft: true
+    costBuy: 2100000
+    costSell: 700000
+    sprite: 945
+    fuelMax: 2200
+    damageMax: 700
+    speedMax: 1250
+    accel: 3
+    soldiers: 52
+    vehicles: 8
+    pilots: 6
+    refuelRate: 25
+    transferTime: 72
+    weapons: 2
+    score: 200
+    weaponTypes:
+      - [5, 0, 1]
+      - [5, 0, 1]
+    battlescapeTerrainData:
+      name: UNSCVENTURESTAR
+      mapDataSets:
+        - BLANKS
+        - SHUTTLE2
+        - LIGHTNIA2
+      mapBlocks:
+        - name: UNSCVENTURESTAR
+          width: 20
+          length: 20
+    craftInventoryTile: [10, 10, 1]
+    deployment:
+    ##### Tanks First
+      - [8, 5, 1, 0]
+      - [9, 5, 1, 0]
+      - [8, 6, 1, 0]
+      - [9, 6, 1, 0]
+      - [10, 5, 1, 0]
+      - [10, 5, 1, 0]
+      - [11, 6, 1, 0]
+      - [11, 6, 1, 0]
+      - [4, 7, 1, 0]
+      - [5, 7, 1, 0]
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [6, 7, 1, 0]
+      - [7, 7, 1, 0]
+      - [6, 8, 1, 0]
+      - [7, 8, 1, 0]
+      - [8, 7, 1, 0]
+      - [9, 7, 1, 0]
+      - [8, 8, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 7, 1, 0]
+      - [11, 7, 1, 0]
+      - [10, 8, 1, 0]
+      - [11, 8, 1, 0]
+      - [12, 7, 1, 0]
+      - [13, 7, 1, 0]
+      - [12, 8, 1, 0]
+      - [13, 8, 1, 0]
+      - [14, 7, 1, 0]
+      - [15, 7, 1, 0]
+      - [14, 8, 1, 0]
+      - [15, 8, 1, 0]
+      ### Infantry
+      - [4, 6, 1, 0]
+      - [5, 6, 1, 0]
+      - [6, 6, 1, 0]
+      - [7, 6, 1, 0]
+      - [12, 6, 1, 0]
+      - [13, 6, 1, 0]
+      - [14, 6, 1, 0]
+      - [15, 6, 1, 0]
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [6, 9, 1, 0]
+      - [7, 9, 1, 0]
+      - [12, 9, 1, 0]
+      - [13, 9, 1, 0]
+      - [14, 9, 1, 0]
+      - [15, 9, 1, 0]
+      - [6, 10, 1, 0]
+      - [7, 10, 1, 0]
+      - [12, 10, 1, 0]
+      - [13, 10, 1, 0]

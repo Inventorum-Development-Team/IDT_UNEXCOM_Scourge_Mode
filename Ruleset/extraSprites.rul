@@ -15,3 +15,10 @@ extraSprites:
     subY: 40
     files:
       1: Resources/BallisticWeapons/Ammo/Hand.png
+
+  - type: STR_VENTURESTAR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/unscventurestarwiki.png

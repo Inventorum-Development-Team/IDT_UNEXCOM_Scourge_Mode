@@ -10,3 +10,22 @@ ufopaedia:
     section: STR_AMMUNITION
     text: STR_5_56MM_NATO_RIFLE_X30_UFOPEDIA
     listOrder: 5013
+
+  - id: STR_SANTA_MARIA
+    type_id: 1
+    section: STR_XCOM_CRAFTS
+    requires:
+      - STR_NXTGENFGHTRTRANS
+    text: STR_VENTURESTARWIKI
+    listOrder: 15003
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: STR_VENTURESTAR

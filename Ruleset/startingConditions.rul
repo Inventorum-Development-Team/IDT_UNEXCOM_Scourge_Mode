@@ -1,0 +1,10 @@
+startingConditions:
+  - type: STR_MARS_CONDITION
+    allowedCraft:
+      - STR_SPACE_SHUTTLE
+      - STR_SANTA_MARIA
+
+  - type: STR_MOON_CONDITION
+    allowedCraft:
+      - STR_SPACE_SHUTTLE
+      - STR_SANTA_MARIA
