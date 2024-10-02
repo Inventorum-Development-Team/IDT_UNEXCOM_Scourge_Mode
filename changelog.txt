@@ -1,4 +1,11 @@
-@here UNEXCOM: Scourge Mode update is out!
+@here I bring yet another UNEXCOM: Scourge Mode update!
+
+``v0.3
+10/1/24
+
+*Restored UFOs to combat missions 
+*Restored regular retaliation missions
+*Restored agnostic (non-arc related) alien missions ``
 
 ``v0.2
 9/26/24
@@ -10,4 +17,5 @@
 *Space Missions aliens spawn with all Fusion weapons (might be too harsh again)
 *Psi is LoS
 *Alloy weapon armor damage nerf
-*Added Santa Maria craft (VENTURESTAR used as a base)``
+*Added Santa Maria craft (VENTURESTAR used as a base) by @kiro_xei
+*Big credit to @Ice~ for writing the "Declaration of Resistance" and being the first to ever actually beat Scourge Mode ``
