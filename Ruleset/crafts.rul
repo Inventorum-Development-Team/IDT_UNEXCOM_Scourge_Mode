@@ -2,7 +2,6 @@ crafts:
   - type: STR_SANTA_MARIA
     requires:
       - STR_THE_MARTIAN_SOLUTION
-    allowLanding: true
     spacecraft: true
     costBuy: 2100000
     costSell: 700000
@@ -15,11 +14,7 @@ crafts:
     pilots: 6
     refuelRate: 25
     transferTime: 72
-    weapons: 2
-    score: 200
-    weaponTypes:
-      - [5, 0, 1]
-      - [5, 0, 1]
+    weapons: 0
     battlescapeTerrainData:
       name: UNSCVENTURESTAR
       mapDataSets:

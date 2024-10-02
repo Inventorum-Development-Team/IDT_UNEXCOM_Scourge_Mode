@@ -18,9 +18,17 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      12:
+        STR_FLOATER: 100
+      6:
         STR_SECTOID: 100
+        STR_FLOATER: 100
+        STR_CEREBRAL: 50
+        STR_CHTONITE: 50
+        STR_REPTOID: 50
+      12:
         STR_ARMORED_SECTOID: 100
+        STR_SNAKEMEN: 100
+        STR_ARMORED_FLOATER: 100
     waves:
       - ufo: STR_SMALL_SCOUT
         count: 1
@@ -48,9 +56,20 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      12:
+        STR_FLOATER: 100
+      6:
         STR_SECTOID: 100
+        STR_FLOATER: 100
+        STR_CEREBRAL: 50
+        STR_CHTONITE: 50
+        STR_REPTOID: 50
+      12:
         STR_ARMORED_SECTOID: 100
+        STR_SNAKEMEN: 100
+        STR_ARMORED_FLOATER: 100
+        STR_CEREBRAL: 50
+        STR_CHTONITE: 50
+        STR_REPTOID: 50
     waves:
       - ufo: STR_ABDUCTOR
         count: 1

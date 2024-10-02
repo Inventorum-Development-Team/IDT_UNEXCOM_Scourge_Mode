@@ -15,7 +15,7 @@ ufopaedia:
     type_id: 1
     section: STR_XCOM_CRAFTS
     requires:
-      - STR_NXTGENFGHTRTRANS
+      - STR_THE_MARTIAN_SOLUTION
     text: STR_VENTURESTARWIKI
     listOrder: 15003
     rect_stats:
@@ -28,4 +28,4 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: STR_VENTURESTAR
+    image_id: STR_SANTA_MARIA

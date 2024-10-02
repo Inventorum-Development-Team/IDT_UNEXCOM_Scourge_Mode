@@ -16,7 +16,7 @@ extraSprites:
     files:
       1: Resources/BallisticWeapons/Ammo/Hand.png
 
-  - type: STR_VENTURESTAR
+  - type: STR_SANTA_MARIA
     singleImage: true
     width: 320
     height: 200
